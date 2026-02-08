@@ -1,17 +1,17 @@
 import os
 import time
 
+import dolfin as df
 import numpy as np
-from dolfin import *
 
 # ------------------------------------------------------------------------------
 # GLOBAL PARAMETERS
 # ------------------------------------------------------------------------------
-parameters["form_compiler"]["representation"] = "uflacs"
+df.parameters["form_compiler"]["representation"] = "uflacs"
 
-comm = MPI.comm_world
-rank = MPI.rank(comm)
-size = MPI.size(comm)
+comm = df.MPI.comm_world
+rank = df.MPI.rank(comm)
+size = df.MPI.size(comm)
 
 # Physical and numerical constants
 rho = 1270.0  # Density [kg/m³]
@@ -31,9 +31,8 @@ z_min, z_max = 0.0, 0.3
 x_div, z_div = 50, 25
 
 # Output directory
-outdir = "data-out-nitsche"
+outdir = "data/decoupling"
 os.makedirs(outdir, exist_ok=True)
-
 
 # ------------------------------------------------------------------------------
 # MESH AND BOUNDARY DEFINITIONS
@@ -42,30 +41,30 @@ os.makedirs(outdir, exist_ok=True)
 
 def build_mesh():
     """Create rectangular mesh and mark boundaries."""
-    mesh = RectangleMesh(
-        Point(x_min, z_min), Point(x_max, z_max), x_div, z_div, "crossed"
+    mesh = df.RectangleMesh(
+        df.Point(x_min, z_min), df.Point(x_max, z_max), x_div, z_div, "crossed"
     )
-    boundary_parts = MeshFunction("size_t", mesh, mesh.topology().dim() - 1, 0)
+    boundary_parts = df.MeshFunction("size_t", mesh, mesh.topology().dim() - 1, 0)
     # unit outer domain normal vector
-    norm = FacetNormal(mesh)
-    x = SpatialCoordinate(mesh)
+    norm = df.FacetNormal(mesh)
+    x = df.SpatialCoordinate(mesh)
 
     # Boundary markers
-    class Bottom(SubDomain):
+    class Bottom(df.SubDomain):
         def inside(self, x, on_boundary):
-            return on_boundary and near(x[1], z_min)
+            return on_boundary and df.near(x[1], z_min)
 
-    class Top(SubDomain):
+    class Top(df.SubDomain):
         def inside(self, x, on_boundary):
-            return on_boundary and near(x[1], z_max)
+            return on_boundary and df.near(x[1], z_max)
 
-    class Left(SubDomain):
+    class Left(df.SubDomain):
         def inside(self, x, on_boundary):
-            return on_boundary and near(x[0], x_min)
+            return on_boundary and df.near(x[0], x_min)
 
-    class Right(SubDomain):
+    class Right(df.SubDomain):
         def inside(self, x, on_boundary):
-            return on_boundary and near(x[0], x_max)
+            return on_boundary and df.near(x[0], x_max)
 
     Bottom().mark(boundary_parts, 1)
     Top().mark(boundary_parts, 2)
@@ -73,9 +72,9 @@ def build_mesh():
     Right().mark(boundary_parts, 4)
 
     # Surface measure
-    ds = Measure("ds")[boundary_parts]
+    ds = df.Measure("ds")[boundary_parts]
 
-    class Omega(SubDomain):
+    class Omega(df.SubDomain):
         def inside(self, x, on_boundary):
             return True
 
@@ -83,8 +82,8 @@ def build_mesh():
 
     # Find top-right vertex index for probe output
     tr_index = None
-    for v in vertices(mesh):
-        if near(v.point().x(), x_max) and near(v.point().y(), z_max):
+    for v in df.vertices(mesh):
+        if df.near(v.point().x(), x_max) and df.near(v.point().y(), z_max):
             tr_index = v.index()
             break
     if tr_index is None:
@@ -100,13 +99,13 @@ def build_mesh():
 
 def build_spaces(mesh):
     """Create scalar, vector, and mixed function spaces (V, P, and free-surface V)."""
-    P_ele = FiniteElement("CG", mesh.ufl_cell(), 1)
-    V_ele = VectorElement("CG", mesh.ufl_cell(), 2)
-    V = FunctionSpace(mesh, V_ele)
-    P = FunctionSpace(mesh, P_ele)
+    P_ele = df.FiniteElement("CG", mesh.ufl_cell(), 1)
+    V_ele = df.VectorElement("CG", mesh.ufl_cell(), 2)
+    V = df.FunctionSpace(mesh, V_ele)
+    P = df.FunctionSpace(mesh, P_ele)
     # Mixed: velocity (V), pressure (P), and free-surface displacement (V)
-    M_ns = FunctionSpace(mesh, MixedElement([V_ele, P_ele]))
-    M_h = FunctionSpace(mesh, MixedElement([V_ele]))
+    M_ns = df.FunctionSpace(mesh, df.MixedElement([V_ele, P_ele]))
+    M_h = df.FunctionSpace(mesh, df.MixedElement([V_ele]))
     return V, P, M_ns, M_h
 
 
@@ -117,7 +116,7 @@ def build_spaces(mesh):
 
 def make_force_expression():
     """Time-varying gravitational forcing vector."""
-    return Expression(
+    return df.Expression(
         ("rho*g*sin(phi_max*sin(2*pi*f*t))", "-rho*g*cos(phi_max*sin(2*pi*f*t))"),
         rho=rho,
         g=g,
@@ -138,40 +137,40 @@ def build_ns_form(M, V, dt, ds, norm, theta):
     Build variational form for Navier–Stokes.
     """
     # Test and trial functions
-    w_ = TestFunction(M)
-    v_, p_ = split(w_)
-    h_ = TestFunction(V)
+    w_ = df.TestFunction(M)
+    v_, p_ = df.split(w_)
+    h_ = df.TestFunction(V)
 
-    w = Function(M)
-    v, p = split(w)
-    h = Function(V)
-    w_k = Function(M)
-    v_k, p_k = split(w_k)
-    h_k = Function(V)
+    w = df.Function(M)
+    v, p = df.split(w)
+    h = df.Function(V)
+    w_k = df.Function(M)
+    v_k, p_k = df.split(w_k)
+    h_k = df.Function(V)
 
     # Auxiliary and forcing fields
-    force = Function(V)
-    force_k = Function(V)
+    force = df.Function(V)
+    force_k = df.Function(V)
 
     # Basic subforms
     def a(v, u_):
-        D = sym(grad(v))
+        D = df.sym(df.grad(v))
         return (
-            rho * inner(grad(v) * (v - (h - h_k) / dt), u_)
-            + inner(2 * nu * D, grad(u_))
-        ) * dx
+            rho * df.inner(df.grad(v) * (v - (h - h_k) / dt), u_)
+            + df.inner(2 * nu * D, df.grad(u_))
+        ) * df.dx
 
     def b(q, v_):
-        return inner(div(v_), q) * dx
+        return df.inner(df.div(v_), q) * df.dx
 
     def c(f_, v_):
-        return dot(f_, v_) * dx
+        return df.dot(f_, v_) * df.dx
 
     # Navier–Stokes residuals
     F0 = a(v_k, v_) - b(p, v_) - c(force_k, v_) + b(p_, v)
     F1 = a(v, v_) - b(p, v_) - c(force, v_) + b(p_, v)
-    F_ns = rho * inner((v - v_k), v_) / dt * dx + (1.0 - theta) * F0 + theta * F1
-    J_ns = derivative(F_ns, w)
+    F_ns = rho * df.inner((v - v_k), v_) / dt * df.dx + (1.0 - theta) * F0 + theta * F1
+    J_ns = df.derivative(F_ns, w)
     return F_ns, J_ns, w, w_k, force, force_k
 
 
@@ -180,27 +179,33 @@ def build_surf_form(M, V, dt, ds, norm, theta):
     Build  variational form for free surface.
     """
     # Test and trial functions
-    h_ = TestFunction(V)
+    h_ = df.TestFunction(V)
 
-    w = Function(M)
-    v = split(w)
-    h = Function(V)
-    h_k = Function(V)
+    w = df.Function(M)
+    v = df.split(w)
+    h = df.Function(V)
+    h_k = df.Function(V)
 
     # Auxiliary and forcing fields
-    dh = Function(V)
+    dh = df.Function(V)
 
     # Free-surface form
-    gamma_h = Constant(0.005 / x_div)
+    gamma_h = df.Constant(0.005 / x_div)
     F_h = (
-        inner(nabla_grad(h), nabla_grad(h_)) * dx
-        - inner(nabla_grad(h), norm) * h_ * ds(2)
-        - (h - h_k + dt * (v * (norm[1] * h.dx(0) - norm[0] * h.dx(1)) / norm[1] - v))
-        * (inner(nabla_grad(h_), norm) - h_ / gamma_h)
+        df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx
+        - df.inner(df.dot(df.nabla_grad(h), norm), h_) * ds(2)
+        - df.inner(
+            (
+                h
+                - h_k
+                + dt * (v * (norm[1] * h.dx(0) - norm[0] * h.dx(1)) / norm[1] - v)
+            ),
+            df.dot(df.nabla_grad(h_), norm) - h_ / gamma_h,
+        )
         * ds(2)
     )
+    J_h = df.derivative(F_h, w)
 
-    J_h = derivative(F_h, w)
     return F_h, J_h, h, h_k, dh
 
 
@@ -211,9 +216,9 @@ def build_surf_form(M, V, dt, ds, norm, theta):
 
 def build_ns_bcs(M, V, boundaries, omega):
     """Free-slip velocity."""
-    bc_v_bot = DirichletBC(M.sub(0).sub(1), Constant(0.0), boundaries, 1)
-    bc_v_left = DirichletBC(M.sub(0).sub(0), Constant(0.0), boundaries, 3)
-    bc_v_right = DirichletBC(M.sub(0).sub(0), Constant(0.0), boundaries, 4)
+    bc_v_bot = df.DirichletBC(M.sub(0).sub(1), df.Constant(0.0), boundaries, 1)
+    bc_v_left = df.DirichletBC(M.sub(0).sub(0), df.Constant(0.0), boundaries, 3)
+    bc_v_right = df.DirichletBC(M.sub(0).sub(0), df.Constant(0.0), boundaries, 4)
     bcs_vp = [bc_v_bot, bc_v_left, bc_v_right]
     return bcs_vp
 
@@ -221,8 +226,8 @@ def build_ns_bcs(M, V, boundaries, omega):
 def build_srf_bcs(M, V, boundaries, omega):
     """Fixed free-surface BCs."""
 
-    bc_h_bot = DirichletBC(M.sub(2).sub(1), Constant(0.0), boundaries, 1)
-    bcs_hx = DirichletBC(M.sub(2).sub(0), Constant(0.0), omega)
+    bc_h_bot = df.DirichletBC(M.sub(2).sub(1), df.Constant(0.0), boundaries, 1)
+    bcs_hx = df.DirichletBC(M.sub(2).sub(0), df.Constant(0.0), omega)
     bcs_h = [bc_h_bot, bcs_hx]
     return bcs_h
 
@@ -234,8 +239,8 @@ def build_srf_bcs(M, V, boundaries, omega):
 
 def make_solver(F, w, bcs, J):
     """Create nonlinear Newton solver with MUMPS backend."""
-    problem = NonlinearVariationalProblem(F, w, bcs, J)
-    solver = NonlinearVariationalSolver(problem)
+    problem = df.NonlinearVariationalProblem(F, w, bcs, J)
+    solver = df.NonlinearVariationalSolver(problem)
     prm = solver.parameters
     prm["nonlinear_solver"] = "newton"
     prm["newton_solver"]["absolute_tolerance"] = 1e-8
@@ -252,9 +257,9 @@ def make_solver(F, w, bcs, J):
 
 def make_xdmf_writers(comm):
     """Prepare XDMF writers for v, p, and h."""
-    file_v = XDMFFile(comm, os.path.join(outdir, "v.xdmf"))
-    file_p = XDMFFile(comm, os.path.join(outdir, "p.xdmf"))
-    file_h = XDMFFile(comm, os.path.join(outdir, "h.xdmf"))
+    file_v = df.XDMFFile(comm, os.path.join(outdir, "v.xdmf"))
+    file_p = df.XDMFFile(comm, os.path.join(outdir, "p.xdmf"))
+    file_h = df.XDMFFile(comm, os.path.join(outdir, "h.xdmf"))
     for f in [file_v, file_p, file_h]:
         f.parameters["flush_output"] = True
         f.parameters["rewrite_function_mesh"] = True
@@ -274,7 +279,7 @@ def write_outputs(file_v, file_p, file_h, w, t):
 
 def append_probe(mesh, tr_index, t):
     """Log displacement of top-right vertex."""
-    tr_z = Vertex(mesh, tr_index).point().y()
+    tr_z = df.Vertex(mesh, tr_index).point().y()
     path = os.path.join(outdir, "topo_right_top.dat")
     with open(path, "a") as f:
         f.write(f"{t:<15.6f} {tr_z - z_max}\n")
@@ -289,7 +294,7 @@ def main():
     """Main program driver."""
     mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
     V, P, M_ns, M_h = build_spaces(mesh)
-    dt = Constant(dt_value)
+    dt = df.Constant(dt_value)
 
     theta = theta_value
 
@@ -303,16 +308,16 @@ def main():
     solver_h = make_solver(F_h, w, bcs_h, J_h)
 
     # Initial conditions
-    w_init = Expression(("0.0", "0.0", "0.0"), degree=1)
+    w_init = df.Expression(("0.0", "0.0", "0.0"), degree=1)
     w.interpolate(w_init)
     w_k.interpolate(w_init)
 
-    h_init = Expression(("0.0", "0.0"), degree=1)
+    h_init = df.Expression(("0.0", "0.0"), degree=1)
     h.interpolate(h_init)
     h_k.assign(h_init)
 
     force_expr.t = 0.0
-    force.assign(project(force_expr, V))
+    force.assign(df.project(force_expr, V))
     force_k.assign(force)
 
     # Output setup
@@ -330,15 +335,15 @@ def main():
 
         # Update forcing and displacement
         force_expr.t = t
-        force.assign(project(force_expr, V))
+        force.assign(df.project(force_expr, V))
 
         # Solve coupled problem
         solver_ns.solve()
         solver_h.solve()
 
         # Mesh motion: ALE update
-        dh.assign(project(h - h_k, V))
-        ALE.move(mesh, dh)
+        dh.assign(df.project(h - h_k, V))
+        df.ALE.move(mesh, dh)
 
         # Output
         write_outputs(file_v, file_p, file_h, w, t)
@@ -359,7 +364,7 @@ def main():
 
 
 # ------------------------------------------------------------------------------
-# ENTRY POINT
+# MAIN ENTRY POINT
 # ------------------------------------------------------------------------------
 if __name__ == "__main__":
     main()
