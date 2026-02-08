@@ -15,13 +15,13 @@ size = df.MPI.size(comm)
 
 # Physical and numerical constants
 rho = 1270.0  # Density [kg/m³]
-nu = 1.49  # Kinematic viscosity [m²/s]
+nu = 1.49e-5  # Kinematic viscosity [m²/s]
 g = 9.81  # Gravity [m/s²]
 f = 1.0  # Forcing frequency [Hz]
 phi_max = 4.0 * np.pi / 180.0  # Max oscillation angle [rad]
 
 # Time-stepping
-dt_value = 1.0e-2  # Time step size
+dt_value = 1.0e-3  # Time step size
 theta_value = 0.5  # Crank-Nicolson theta scheme
 Tmax = 6.0  # Max simulation time
 
@@ -72,7 +72,7 @@ def build_mesh():
     Right().mark(boundary_parts, 4)
 
     # Surface measure
-    ds = df.Measure("ds")[boundary_parts]
+    ds = df.Measure("ds")(subdomain_data=boundary_parts)
 
     class Omega(df.SubDomain):
         def inside(self, x, on_boundary):
@@ -101,11 +101,13 @@ def build_spaces(mesh):
     """Create scalar, vector, and mixed function spaces (V, P, and free-surface V)."""
     P_ele = df.FiniteElement("CG", mesh.ufl_cell(), 1)
     V_ele = df.VectorElement("CG", mesh.ufl_cell(), 2)
+
     V = df.FunctionSpace(mesh, V_ele)
     P = df.FunctionSpace(mesh, P_ele)
+
     # Mixed: velocity (V), pressure (P), and free-surface displacement (V)
     M_ns = df.FunctionSpace(mesh, df.MixedElement([V_ele, P_ele]))
-    M_h = df.FunctionSpace(mesh, df.MixedElement([V_ele]))
+    M_h = df.FunctionSpace(mesh, V_ele)
     return V, P, M_ns, M_h
 
 
@@ -132,21 +134,20 @@ def make_force_expression():
 # ------------------------------------------------------------------------------
 
 
-def build_ns_form(M, V, dt, ds, norm, theta):
+def build_ns_form(M_ns, V, w, w_k, h, h_k, dt, theta):
     """
     Build variational form for Navier–Stokes.
     """
-    # Test and trial functions
-    w_ = df.TestFunction(M)
-    v_, p_ = df.split(w_)
-    h_ = df.TestFunction(V)
 
-    w = df.Function(M)
+    # Test and trial functions
+    w_ = df.TestFunction(M_ns)
+    v_, p_ = df.split(w_)
+
+    # The solution
     v, p = df.split(w)
-    h = df.Function(V)
-    w_k = df.Function(M)
+
+    # Previous step
     v_k, p_k = df.split(w_k)
-    h_k = df.Function(V)
 
     # Auxiliary and forcing fields
     force = df.Function(V)
@@ -156,7 +157,7 @@ def build_ns_form(M, V, dt, ds, norm, theta):
     def a(v, u_):
         D = df.sym(df.grad(v))
         return (
-            rho * df.inner(df.grad(v) * (v - (h - h_k) / dt), u_)
+            rho * df.inner(df.dot(df.grad(v), (v - (h - h_k) / dt)), u_)
             + df.inner(2 * nu * D, df.grad(u_))
         ) * df.dx
 
@@ -171,42 +172,39 @@ def build_ns_form(M, V, dt, ds, norm, theta):
     F1 = a(v, v_) - b(p, v_) - c(force, v_) + b(p_, v)
     F_ns = rho * df.inner((v - v_k), v_) / dt * df.dx + (1.0 - theta) * F0 + theta * F1
     J_ns = df.derivative(F_ns, w)
-    return F_ns, J_ns, w, w_k, force, force_k
+    return F_ns, J_ns, force, force_k
 
 
-def build_surf_form(M, V, dt, ds, norm, theta):
+def build_surf_form(M_h, v, h, h_k, dt, ds, norm):
     """
     Build  variational form for free surface.
     """
-    # Test and trial functions
-    h_ = df.TestFunction(V)
 
-    w = df.Function(M)
-    v = df.split(w)
-    h = df.Function(V)
-    h_k = df.Function(V)
+    # Test function
+    h_ = df.TestFunction(M_h)
 
     # Auxiliary and forcing fields
-    dh = df.Function(V)
+    dh = df.Function(M_h)
 
     # Free-surface form
     gamma_h = df.Constant(0.005 / x_div)
+
+    # Advection term
+
+    advection = df.dot(df.grad(h), v)
+
     F_h = (
         df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx
         - df.inner(df.dot(df.nabla_grad(h), norm), h_) * ds(2)
         - df.inner(
-            (
-                h
-                - h_k
-                + dt * (v * (norm[1] * h.dx(0) - norm[0] * h.dx(1)) / norm[1] - v)
-            ),
+            (h - h_k + dt * (advection - v)),
             df.dot(df.nabla_grad(h_), norm) - h_ / gamma_h,
         )
         * ds(2)
     )
-    J_h = df.derivative(F_h, w)
+    J_h = df.derivative(F_h, h)
 
-    return F_h, J_h, h, h_k, dh
+    return F_h, J_h, dh
 
 
 # ------------------------------------------------------------------------------
@@ -214,20 +212,20 @@ def build_surf_form(M, V, dt, ds, norm, theta):
 # ------------------------------------------------------------------------------
 
 
-def build_ns_bcs(M, V, boundaries, omega):
+def build_ns_bcs(M_ns, boundaries):
     """Free-slip velocity."""
-    bc_v_bot = df.DirichletBC(M.sub(0).sub(1), df.Constant(0.0), boundaries, 1)
-    bc_v_left = df.DirichletBC(M.sub(0).sub(0), df.Constant(0.0), boundaries, 3)
-    bc_v_right = df.DirichletBC(M.sub(0).sub(0), df.Constant(0.0), boundaries, 4)
+    bc_v_bot = df.DirichletBC(M_ns.sub(0).sub(1), df.Constant(0.0), boundaries, 1)
+    bc_v_left = df.DirichletBC(M_ns.sub(0).sub(0), df.Constant(0.0), boundaries, 3)
+    bc_v_right = df.DirichletBC(M_ns.sub(0).sub(0), df.Constant(0.0), boundaries, 4)
     bcs_vp = [bc_v_bot, bc_v_left, bc_v_right]
     return bcs_vp
 
 
-def build_srf_bcs(M, V, boundaries, omega):
+def build_srf_bcs(M_h, boundaries, omega):
     """Fixed free-surface BCs."""
 
-    bc_h_bot = df.DirichletBC(M.sub(2).sub(1), df.Constant(0.0), boundaries, 1)
-    bcs_hx = df.DirichletBC(M.sub(2).sub(0), df.Constant(0.0), omega)
+    bc_h_bot = df.DirichletBC(M_h.sub(1), df.Constant(0.0), boundaries, 1)
+    bcs_hx = df.DirichletBC(M_h.sub(0), df.Constant(0.0), omega)
     bcs_h = [bc_h_bot, bcs_hx]
     return bcs_h
 
@@ -245,7 +243,7 @@ def make_solver(F, w, bcs, J):
     prm["nonlinear_solver"] = "newton"
     prm["newton_solver"]["absolute_tolerance"] = 1e-8
     prm["newton_solver"]["relative_tolerance"] = 1e-8
-    prm["newton_solver"]["maximum_iterations"] = 20
+    prm["newton_solver"]["maximum_iterations"] = 40
     prm["newton_solver"]["linear_solver"] = "mumps"
     return solver
 
@@ -266,9 +264,9 @@ def make_xdmf_writers(comm):
     return file_v, file_p, file_h
 
 
-def write_outputs(file_v, file_p, file_h, w, t):
+def write_outputs(file_v, file_p, file_h, w, h, t):
     """Write velocity, pressure, and free-surface fields."""
-    v, p, h = w.split(True)
+    v, p = w.split(True)
     v.rename("v", "v")
     p.rename("p", "p")
     h.rename("h", "h")
@@ -294,18 +292,36 @@ def main():
     """Main program driver."""
     mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
     V, P, M_ns, M_h = build_spaces(mesh)
-    dt = df.Constant(dt_value)
 
+    # Mesh displacement functions
+    h = df.Function(M_h)
+    h_k = df.Function(M_h)
+
+    # Flow functions
+    w = df.Function(M_ns)
+    v, p = df.split(w)
+
+    # Previous step
+    w_k = df.Function(M_ns)
+    v_k, p_k = df.split(w_k)
+
+    # Time step and theta scheme
+    dt = df.Constant(dt_value)
     theta = theta_value
+
+    # Buidling the NS form
+    F_ns, J_ns, force, force_k = build_ns_form(M_ns, V, w, w_k, h, h_k, dt, theta)
+
+    # Building the surface form
+    F_h, J_h, dh = build_surf_form(M_h, v, h, h_k, dt, ds, norm)
 
     # Force and variational setup
     force_expr = make_force_expression()
-    F_ns, J_ns, w, w_k, force, force_k = build_ns_form(M_ns, V, dt, ds, norm, theta)
-    F_h, J_h, h, h_k, dh = build_surf_form(M_h, V, dt, ds, norm, theta)
-    bcs_ns = build_ns_bcs(M_ns, V, boundaries, omega)
-    bcs_h = build_srf_bcs(M_h, V, boundaries, omega)
-    solver_ns = make_solver(F_ns, w, bcs_ns, J_ns)
-    solver_h = make_solver(F_h, w, bcs_h, J_h)
+    bcs_ns = build_ns_bcs(M_ns, boundaries)
+    bcs_h = build_srf_bcs(M_h, boundaries, omega)
+
+    solver_ns = make_solver(F_ns, w, bcs_ns, J_ns)  # solves for w=(v,p)
+    solver_h = make_solver(F_h, h, bcs_h, J_h)  # solves for h
 
     # Initial conditions
     w_init = df.Expression(("0.0", "0.0", "0.0"), degree=1)
@@ -322,7 +338,7 @@ def main():
 
     # Output setup
     file_v, file_p, file_h = make_xdmf_writers(comm)
-    write_outputs(file_v, file_p, file_h, w, 0.0)
+    write_outputs(file_v, file_p, file_h, w, h, 0.0)
 
     # Time integration
     t = 0.0
@@ -346,12 +362,14 @@ def main():
         df.ALE.move(mesh, dh)
 
         # Output
-        write_outputs(file_v, file_p, file_h, w, t)
+        write_outputs(file_v, file_p, file_h, w, h, t)
         append_probe(mesh, tr_index, t)
 
         # Advance
         w_k.assign(w)
         force_k.assign(force)
+        h_k.assign(h)
+
         t += dt_value
         step += 1
 

@@ -1,0 +1,2 @@
+c++ -Wall -shared -fPIC -std=c++11 -O2 -I/usr/lib/python3/dist-packages/ffc/backends/ufc -I/home/fenics/shared/.cache/fenics/dijitso/include ffc_element_b18db1707b7ed7dd5d17026a9908d6b08722bf9e.cpp -L/home/fenics/shared/.cache/fenics/dijitso/lib -Wl,-rpath,/home/fenics/shared/.cache/fenics/dijitso/lib -olibdijitso-ffc_element_b18db1707b7ed7dd5d17026a9908d6b08722bf9e.so
+
