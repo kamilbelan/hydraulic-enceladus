@@ -1,0 +1,70 @@
+#!/bin/bash
+set -e
+
+RED=$(tput setaf 1)
+BLUE=$(tput setaf 6)
+RESET=$(tput sgr 0)
+
+# Select image
+IMAGE="ghcr.io/scientificcomputing/fenics-gmsh:2024-05-30"
+
+# Directory where this script resides
+THISDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# Mount point in the container
+CONTAINER_MOUNT_POINT="/home/fenics/shared"
+CACHE_DIR="${CONTAINER_MOUNT_POINT}/.cache/fenics"
+
+# Compose Docker command to be run on the host
+if [ -t 0 ] ; then
+    # Interactive
+    DOCKER_RUN_CMD=(docker run --interactive --tty)
+else
+    # No input terminal
+    DOCKER_RUN_CMD=(docker run)
+fi
+DOCKER_RUN_CMD+=(
+    --rm
+    --volume="${THISDIR}":${CONTAINER_MOUNT_POINT}
+    --env=DISPLAY=${DISPLAY}
+    --volume=/tmp/.X11-unix:/tmp/.X11-unix
+    --device=/dev/dri
+    --workdir=${CONTAINER_MOUNT_POINT}
+    --env INSTANT_CACHE_DIR=${CACHE_DIR}/instant
+    --env INSTANT_ERROR_DIR=${CACHE_DIR}/instant
+    --env DIJITSO_CACHE_DIR=${CACHE_DIR}/dijitso
+    ${IMAGE}
+    /bin/bash
+    -c
+)
+
+# Compose usage message
+read -r -d '' USAGE <<EOF || true
+echo
+echo "${BLUE}See https://fenics.readthedocs.io/projects/containers/en/latest/index.html"
+echo
+echo "${RED}Warning: use python3 ${RESET}"
+echo
+EOF
+
+# Don't print usage if user's command is to be executed
+if [[ $# -ne 0 ]]; then
+    USAGE=""
+fi
+
+# Compose commands to be run in the container
+read -r -d '' CONTAINER_CMD <<EOF || true
+set -e
+
+# Preserve history files
+ln -s ${CONTAINER_MOUNT_POINT}/.{bash,python}_history ~/
+
+# Inform user
+$USAGE
+
+# Run actual command with its arguments (or Bash if none given)
+"\$0" "\$@"
+EOF
+
+# Run actual commands with provided command-line parameters
+"${DOCKER_RUN_CMD[@]}" "${CONTAINER_CMD}" "$@"

@@ -1,0 +1,87 @@
+#!/bin/bash
+set -e
+
+BLUE=$(tput setaf 4)
+RESET=$(tput sgr 0)
+
+# Select image
+IMAGE="firedrakeproject/firedrake:2025.4.2"
+
+# Directory where this script resides
+THISDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# Mount point in the container
+CONTAINER_MOUNT_POINT="/home/firedrake/shared"
+
+# Compose Docker command to be run on the host
+if [ -t 0 ] ; then
+    # Interactive
+    DOCKER_RUN_CMD=(docker run --interactive --tty)
+else
+    # No input terminal
+    DOCKER_RUN_CMD=(docker run)
+fi
+DOCKER_RUN_CMD+=(
+    --rm
+    --volume="${THISDIR}":${CONTAINER_MOUNT_POINT}
+    --env=DISPLAY=${DISPLAY}
+    --volume=/tmp/.X11-unix:/tmp/.X11-unix
+    --volume="${HOME}/.Xauthority":/root/.Xauthority:ro
+    --device=/dev/dri
+    --workdir=${CONTAINER_MOUNT_POINT}
+    ${IMAGE}
+    /bin/bash
+    -c
+)
+
+# Compose usage message
+read -r -d '' USAGE <<EOF || true
+# Advise user to install a nice debugger
+echo "${BLUE}Run 'pip install pdbpp' to get a nice debugger${RESET}"
+echo "${BLUE}${RESET}"
+echo "${BLUE}Run 'pip install git+https://bitbucket.org/pefarrell/defcon.git' to obtain defcon${RESET}"
+echo "${BLUE}${RESET}"
+echo "${BLUE}To use defcon GUI run additionally:${RESET}"
+echo "${BLUE}  sudo apt update${RESET}"
+echo "${BLUE}  sudo apt install -y --no-install-recommends dvipng texlive-latex-extra texlive-fonts-recommended cm-super libxcb-xinerama0-dev libxcb-xkb-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-icccm4-dev libxcb-util-dev libxcb-keysyms1-dev libxkbcommon-x11-dev libgl1${RESET}"
+echo "${BLUE}  pip install PyQt5 tikzplotlib${RESET}"
+echo "${BLUE}${RESET}"
+echo "${BLUE}Then you can do:${RESET}"
+echo "${BLUE}  cd defcon/scripts/${RESET}"
+echo "${BLUE}  python3 -m defcon gui -p bratu_gelfand.py &${RESET}"
+echo "${BLUE}  mpiexec -n 2 python3 bratu_gelfand.py${RESET}"
+echo "${BLUE}${RESET}"
+echo "${BLUE}If you get error messages such as 'No protocol specified'${RESET}"
+echo "${BLUE}or 'Error: Can't open display: :0.0' try running on the host:${RESET}"
+echo "${BLUE}  xhost +local:docker${RESET}"
+echo "${BLUE}${RESET}"
+echo "${BLUE}Quick start:${RESET}"
+echo "${BLUE}  cd pressure-robust${RESET}"
+echo "${BLUE}  python3 stokes.py${RESET}"
+echo "${BLUE}${RESET}"
+EOF
+
+# Don't print usage if user's command is to be executed
+if [[ $# -ne 0 ]] ; then USAGE=""; fi
+
+# Compose commands to be run in the container
+read -r -d '' CONTAINER_CMD <<EOF || true
+set -e
+
+# Preserve history files
+ln -s ${CONTAINER_MOUNT_POINT}/.{bash,python}_history ~/
+
+# Preserve Firedrake cache
+rm -rf \${VIRTUAL_ENV}/.cache
+ln -s ${CONTAINER_MOUNT_POINT}/.cache \${VIRTUAL_ENV}/
+mkdir -p ${CONTAINER_MOUNT_POINT}/.cache/tsfc/
+
+# Inform user
+$USAGE
+
+# Run actual command with its arguments (or Bash if none given)
+"\$0" "\$@"
+EOF
+
+# Run actual commands with provided command-line parameters
+"${DOCKER_RUN_CMD[@]}" "${CONTAINER_CMD}" "$@"
