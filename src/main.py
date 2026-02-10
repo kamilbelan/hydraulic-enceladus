@@ -4,6 +4,10 @@ import time
 import numpy as np
 import dolfin as df
 
+# for directory handling
+import sys
+import argparse
+
 # ------------------------------------------------------------------------------
 # GLOBAL PARAMETERS
 # ------------------------------------------------------------------------------
@@ -18,8 +22,7 @@ rho = 1270.0  # Density [kg/m³]
 nu = 1.49  # Kinematic viscosity [m²/s]
 g = 9.81  # Gravity [m/s²]
 f = 1.0  # Forcing frequency [Hz]
-u_max = 0.5 # Maximal wall velocity [m/s]
-#phi_max = 4.0 * np.pi / 180.0  # Max oscillation angle [rad]
+u_max = 0.01 # Maximal wall velocity [m/s]
 
 # Time-stepping
 dt_value = 1.0e-2  # Time step size
@@ -30,10 +33,6 @@ Tmax = 6.0  # Max simulation time
 x_min, x_max = 0.0, 1.0
 z_min, z_max = 0.0, 0.3
 x_div, z_div = 50, 25
-
-# Output directory
-outdir = "data/testing"
-os.makedirs(outdir, exist_ok=True)
 
 
 # ------------------------------------------------------------------------------
@@ -74,7 +73,7 @@ def build_mesh():
     Right().mark(boundary_parts, 4)
 
     # Surface measure
-    ds = df.Measure("ds")[boundary_parts]
+    ds = df.Measure("ds")(subdomain_data=boundary_parts)
 
     class Omega(df.SubDomain):
         def inside(self, x, on_boundary):
@@ -134,7 +133,7 @@ def build_forms(M, V, dt, ds, norm, theta):
     def a(v, u_):
         D = df.sym(df.grad(v))
         return (
-            rho * df.dot(df.inner(df.grad(v), (v - (h - h_k) / dt), u_))
+            rho * df.inner(df.dot(df.grad(v), (v - (h - h_k) / dt)), u_)
             + df.inner(2 * nu * D, df.grad(u_))
         ) * df.dx
 
@@ -159,20 +158,8 @@ def build_forms(M, V, dt, ds, norm, theta):
     nitsche_weight = df.inner(df.nabla_grad(h_[1]), norm) - h_[1] / gamma_h # nitsche penalty weight
     term_nitsche = - kinematic_residual * nitsche_weight * ds(2) # the full term
     
+    # the full free-surface form
     F_h = term_laplace + term_symmetry + term_nitsche
-
-    F_h = (
-        df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx
-        - df.inner(df.nabla_grad(h[1]), norm) * h_[1] * ds(2)
-        - (
-            h[1]
-            - h_k[1]
-            + dt
-            * (v[0] * (norm[1] * h[1].dx(0) - norm[0] * h[1].dx(1)) / norm[1] - v[1])
-        )
-        * (df.inner(df.nabla_grad(h_[1]), norm) - h_[1] / gamma_h)
-        * ds(2)
-    )
 
     # Combined monolithic form
     F = F_NS + F_h
@@ -230,11 +217,17 @@ def make_solver(F, w, bcs, J):
 # ------------------------------------------------------------------------------
 
 
-def make_xdmf_writers(comm):
+def make_xdmf_writers(comm, outdir):
     """Prepare XDMF writers for v, p, and h."""
+    # make sure the directory exists
+    if comm.Get_rank() == 0:
+        os.makedirs(outdir, exist_ok=True)
+    comm.Barrier() # Wait for rank 0 to create dir
+
     file_v = df.XDMFFile(comm, os.path.join(outdir, "v.xdmf"))
     file_p = df.XDMFFile(comm, os.path.join(outdir, "p.xdmf"))
     file_h = df.XDMFFile(comm, os.path.join(outdir, "h.xdmf"))
+    
     for f in [file_v, file_p, file_h]:
         f.parameters["flush_output"] = True
         f.parameters["rewrite_function_mesh"] = True
@@ -252,8 +245,13 @@ def write_outputs(file_v, file_p, file_h, w, t):
     file_h.write(h, t)
 
 
-def append_probe(mesh, tr_index, t):
+def append_probe(mesh, tr_index, t, outdir):
     """Log displacement of top-right vertex."""
+
+    # Only rank 0 should write text logs to avoid race conditions
+    #if rank != 0:
+    #    return
+
     tr_z = df.Vertex(mesh, tr_index).point().y()
     path = os.path.join(outdir, "topo_right_top.dat")
     with open(path, "a") as f:
@@ -265,7 +263,7 @@ def append_probe(mesh, tr_index, t):
 # ------------------------------------------------------------------------------
 
 
-def main():
+def main(outdir):
     """Main program driver."""
     mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
     V, P, M = build_spaces(mesh)
@@ -290,7 +288,7 @@ def main():
     vel_right_expr.t = 0.0
 
     # Output setup
-    file_v, file_p, file_h = make_xdmf_writers(comm)
+    file_v, file_p, file_h = make_xdmf_writers(comm, outdir)
     write_outputs(file_v, file_p, file_h, w, 0.0)
 
     # Time integration
@@ -320,7 +318,7 @@ def main():
 
         # Output
         write_outputs(file_v, file_p, file_h, w, t)
-        append_probe(mesh, tr_index, t)
+        append_probe(mesh, tr_index, t, outdir)
 
         # Advance
         w_k.assign(w)
@@ -337,4 +335,9 @@ def main():
 # ENTRY POINT
 # ------------------------------------------------------------------------------
 if __name__ == "__main__":
-    main()
+    # Parse command line arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--outdir", type=str, required=True, help="Directory for output")
+    args = parser.parse_args()
+    
+    main(args.outdir)
