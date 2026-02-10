@@ -1,5 +1,9 @@
 # cached files
 .cache/*
+
+# weird docker output
+.bash_history
+
 # large simulation output 
 *.h5
 *.hdf5
