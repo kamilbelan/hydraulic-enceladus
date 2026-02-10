@@ -87,8 +87,6 @@ def build_mesh():
         if df.near(v.point().x(), x_max) and df.near(v.point().y(), z_max):
             tr_index = v.index()
             break
-    if tr_index is None:
-        raise RuntimeError("Top-right vertex not found.")
 
     return mesh, boundary_parts, omega, tr_index, ds, norm
 
@@ -245,17 +243,23 @@ def write_outputs(file_v, file_p, file_h, w, t):
     file_h.write(h, t)
 
 
+# HACK: when using MPI, only one processor has the vertex
+# if the processor does not have the vertex, it supposes it has it and assigns its y coord to be very small
+# the true y coord is the maximum of all y coords across the processors
+
 def append_probe(mesh, tr_index, t, outdir):
     """Log displacement of top-right vertex."""
 
-    # Only rank 0 should write text logs to avoid race conditions
-    #if rank != 0:
-    #    return
+    local_y = -1.0e9
+    if tr_index is not None:
+        local_y = df.Vertex(mesh, tr_index).point().y()
+    global_y = df.MPI.max(comm, local_y)
 
-    tr_z = df.Vertex(mesh, tr_index).point().y()
-    path = os.path.join(outdir, "topo_right_top.dat")
-    with open(path, "a") as f:
-        f.write(f"{t:<15.6f} {tr_z - z_max}\n")
+    # tell only rank 0 to write to the file
+    if rank == 0:
+        path = os.path.join(outdir, "topo_right_top.dat")
+        with open(path, "a") as f:
+            f.write(f"{t:<15.6f} {global_y - z_max}\n")
 
 
 # ------------------------------------------------------------------------------
