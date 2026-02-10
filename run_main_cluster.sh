@@ -2,7 +2,7 @@
 #SBATCH --job-name=enceladus_ale
 #SBATCH --output=logs/run.%j.out
 #SBATCH --error=logs/run.%j.err
-#SBATCH --ntasks=32
+#SBATCH --ntasks=16
 #SBATCH --cpus-per-task=1
 #SBATCH --time=04:00:00
 #SBATCH --partition=express3
@@ -21,7 +21,7 @@ mkdir -p "$OUT_DIR"
 
 # create a symlink to the latest run; convenience reaons
 rm -f "${PROJECT_ROOT}/data/latest"
-ln -s "$OUT_DIR" "${PROJECT_ROOT}data/latest"
+ln -s "$OUT_DIR" "${PROJECT_ROOT}/data/latest"
 
 # ==========================================
 # RUN 
