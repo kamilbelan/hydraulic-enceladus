@@ -134,7 +134,7 @@ def build_forms(M, V, dt, ds, norm, theta):
     def a(v, u_):
         D = df.sym(df.grad(v))
         return (
-            rho * df.inner(df.grad(v) * (v - (h - h_k) / dt), u_)
+            rho * df.dot(df.inner(df.grad(v), (v - (h - h_k) / dt), u_))
             + df.inner(2 * nu * D, df.grad(u_))
         ) * df.dx
 
@@ -150,7 +150,17 @@ def build_forms(M, V, dt, ds, norm, theta):
     F_NS = rho * df.inner((v - v_k), v_) / dt * df.dx + (1.0 - theta) * F0 + theta * F1
 
     # Free-surface form
-    gamma_h = df.Constant(0.005 / x_div)
+    # for clarity the form is split into three terms
+    term_laplace = df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx # mesh smoothing
+    term_symmetry = - df.inner(df.nabla_grad(h[1]), norm) * h_[1] * ds(2) # consistency term
+
+    kinematic_residual = h[1] - h_k[1] + dt * (v[0] * (norm[1] * h[1].dx(0) - norm[0] * h[1].dx(1)) / norm[1] - v[1])
+    gamma_h = df.Constant(0.005 / x_div) # penalty parameter
+    nitsche_weight = df.inner(df.nabla_grad(h_[1]), norm) - h_[1] / gamma_h # nitsche penalty weight
+    term_nitsche = - kinematic_residual * nitsche_weight * ds(2) # the full term
+    
+    F_h = term_laplace + term_symmetry + term_nitsche
+
     F_h = (
         df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx
         - df.inner(df.nabla_grad(h[1]), norm) * h_[1] * ds(2)
