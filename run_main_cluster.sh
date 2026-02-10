@@ -37,6 +37,6 @@ echo "========================================"
 module load fenics/master
 
 # pipe python stdout/stderr to a log file inside the folder
-srun python src/main.py --outdir "$OUT_DIR" > "$OUT_DIR/simulation.log" 2>&1
+srun python -u src/main.py --outdir "$OUT_DIR" > "$OUT_DIR/simulation.log" 2>&1
 
 echo "Job finished. Check $OUT_DIR/simulation.log for details."
