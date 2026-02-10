@@ -1,0 +1,9 @@
+c++ -Wall -shared -fPIC -std=c++11 -O3 -fno-math-errno -fno-trapping-math -ffinite-math-only -I/usr/local/include -I/usr/local/slepc/include -I/usr/local/slepc/linux-gnu-real-32/include -I/usr/local/petsc/include -I/usr/local/petsc/linux-gnu-real-32/include -I/usr/include/x86_64-linux-gnu/mpich -I/usr/include/hdf5/mpich -I/usr/include/eigen3 -I/usr/lib/python3/dist-packages/ffc/backends/ufc -I/home/fenics/shared/.cache/fenics/dijitso/include dolfin_expression_f2c2e32af8d581d02ab2a8f453e9e525.cpp -L/usr/local/petsc/linux-gnu-real-32/lib -L/usr/local/slepc/linux-gnu-real-32/lib -L/usr/lib/x86_64-linux-gnu/hdf5/mpich -L/usr/local/lib -L/home/fenics/shared/.cache/fenics/dijitso/lib -Wl,-rpath,/home/fenics/shared/.cache/fenics/dijitso/lib -lmpich -lmpichcxx -lpetsc -lslepc -lm -ldl -lz -lsz -lcurl -lcrypto -lhdf5 -lboost_timer -ldolfin -olibdijitso-dolfin_expression_f2c2e32af8d581d02ab2a8f453e9e525.so
+
+/tmp/tmpgmyg35rt/dolfin_expression_f2c2e32af8d581d02ab2a8f453e9e525.cpp: In member function ‘virtual double dolfin::dolfin_expression_f2c2e32af8d581d02ab2a8f453e9e525::get_property(std::string) const’:
+/tmp/tmpgmyg35rt/dolfin_expression_f2c2e32af8d581d02ab2a8f453e9e525.cpp:77:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   77 |           if (name == "u_max") return u_max;          if (name == "f") return f;          if (name == "t") return t;
+      |           ^~
+/tmp/tmpgmyg35rt/dolfin_expression_f2c2e32af8d581d02ab2a8f453e9e525.cpp:77:55: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   77 |           if (name == "u_max") return u_max;          if (name == "f") return f;          if (name == "t") return t;
+      |                                                       ^~
