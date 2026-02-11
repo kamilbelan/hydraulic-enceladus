@@ -181,19 +181,19 @@ def build_forms(M, V, dt, ds, norm, theta):
 # ------------------------------------------------------------------------------
 
 # Displacement of the walls
-disp_left_expr = df.Expression(
-    ("u_max*sin(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
-)
+disp_left_expr = df.Expression("u_max*sin(2*pi*f*t)", u_max=u_max, f=f, t=0.0, degree=2)
+
 disp_right_expr = df.Expression(
-    ("-u_max*sin(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+    "-u_max*sin(2*pi*f*t)", u_max=u_max, f=f, t=0.0, degree=2
 )
 
 # Velocity of the walls
 vel_left_expr = df.Expression(
-    ("2*pi*f*u_max*cos(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+    "2*pi*f*u_max*cos(2*pi*f*t)", u_max=u_max, f=f, t=0.0, degree=2
 )
+
 vel_right_expr = df.Expression(
-    ("-2*pi*f*u_max*cos(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+    "-2*pi*f*u_max*cos(2*pi*f*t)", u_max=u_max, f=f, t=0.0, degree=2
 )
 
 
@@ -203,13 +203,13 @@ def build_bcs(
     """Free-slip velocity + fixed free-surface BCs."""
     # Velocity BCs
     bc_v_bot = df.DirichletBC(M.sub(0).sub(1), df.Constant(0.0), boundaries, 1)
-    bc_v_left = df.DirichletBC(M.sub(0), vel_left_expr, boundaries, 3)
-    bc_v_right = df.DirichletBC(M.sub(0), vel_right_expr, boundaries, 4)
+    bc_v_left = df.DirichletBC(M.sub(0).sub(0), vel_left_expr, boundaries, 3)
+    bc_v_right = df.DirichletBC(M.sub(0).sub(0), vel_right_expr, boundaries, 4)
 
     # Free-surface BCs
     bc_h_bot = df.DirichletBC(M.sub(2).sub(1), df.Constant(0.0), boundaries, 1)
-    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
-    bc_h_right = df.DirichletBC(M.sub(2).sub(0), disp_right_expr(0), boundaries, 4)
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr, boundaries, 3)
+    bc_h_right = df.DirichletBC(M.sub(2).sub(0), disp_right_expr, boundaries, 4)
 
     return [bc_v_bot, bc_v_left, bc_v_right, bc_h_bot, bc_h_left, bc_h_right]
 
