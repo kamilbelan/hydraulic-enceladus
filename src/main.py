@@ -18,10 +18,10 @@ rank = df.MPI.rank(comm)
 size = df.MPI.size(comm)
 
 # Physical and numerical constants
-rho = 1270.0  # Density [kg/m³]
-nu = 1.49e-6  # Kinematic viscosity [m²/s]
+rho = 1000.0  # Density [kg/m³]
+nu = 1.49e-3  # Kinematic viscosity [m²/s]
 mu = nu * rho  # Dynamic viscosity [Pa/s]
-g = 9.81  # Gravity [m/s²]
+g = 0.113  # Gravity [m/s²]
 f = 1.0  # Forcing frequency [Hz]
 u_max = 0.05  # Maximal wall displacement [m]
 
@@ -31,8 +31,8 @@ theta_value = 0.5  # Crank-Nicolson theta scheme
 Tmax = 6.0  # Max simulation time
 
 # Domain and mesh
-x_min, x_max = 0.0, 0.5
-z_min, z_max = 0.0, 1.0
+x_min, x_max = 0.0, 1.0
+z_min, z_max = 0.0, 10.0
 x_div, z_div = 50, 100
 
 
