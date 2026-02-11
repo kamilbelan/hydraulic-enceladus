@@ -20,6 +20,7 @@ size = df.MPI.size(comm)
 # Physical and numerical constants
 rho = 1270.0  # Density [kg/m³]
 nu = 1.49e-6  # Kinematic viscosity [m²/s]
+mu = nu * rho  # Dynamic viscosity [Pa/s]
 g = 9.81  # Gravity [m/s²]
 f = 1.0  # Forcing frequency [Hz]
 u_max = 0.05  # Maximal wall displacement [m]
@@ -132,7 +133,7 @@ def build_forms(M, V, dt, ds, norm, theta):
         D = df.sym(df.grad(v))
         return (
             rho * df.inner(df.dot(df.grad(v), (v - (h - h_k) / dt)), u_)
-            + df.inner(2 * nu * D, df.grad(u_))
+            + df.inner(2 * mu * D, df.grad(u_))
         ) * df.dx
 
     def b(q, v_):
