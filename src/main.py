@@ -19,7 +19,7 @@ size = df.MPI.size(comm)
 
 # Physical and numerical constants
 rho = 1270.0  # Density [kg/m³]
-nu = 1.49  # Kinematic viscosity [m²/s]
+nu = 1.49e-6  # Kinematic viscosity [m²/s]
 g = 9.81  # Gravity [m/s²]
 f = 1.0  # Forcing frequency [Hz]
 u_max = 0.05  # Maximal wall displacement [m]
