@@ -25,7 +25,7 @@ f = 1.0  # Forcing frequency [Hz]
 u_max = 0.05  # Maximal wall displacement [m]
 
 # Time-stepping
-dt_value = 1.0e-2  # Time step size
+dt_value = 1.0e-4  # Time step size
 theta_value = 0.5  # Crank-Nicolson theta scheme
 Tmax = 6.0  # Max simulation time
 
@@ -226,7 +226,7 @@ def make_solver(F, w, bcs, J):
     prm["nonlinear_solver"] = "newton"
     prm["newton_solver"]["absolute_tolerance"] = 1e-8
     prm["newton_solver"]["relative_tolerance"] = 1e-8
-    prm["newton_solver"]["maximum_iterations"] = 20
+    prm["newton_solver"]["maximum_iterations"] = 40
     prm["newton_solver"]["linear_solver"] = "mumps"
     return solver
 
