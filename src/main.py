@@ -208,8 +208,8 @@ def build_bcs(
 
     # Free-surface BCs
     bc_h_bot = df.DirichletBC(M.sub(2).sub(1), df.Constant(0.0), boundaries, 1)
-    bc_h_left = df.DirichletBC(M.sub(2), disp_left_expr, boundaries, 3)
-    bc_h_right = df.DirichletBC(M.sub(2), disp_right_expr, boundaries, 4)
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+    bc_h_right = df.DirichletBC(M.sub(2).sub(0), disp_right_expr(0), boundaries, 4)
 
     return [bc_v_bot, bc_v_left, bc_v_right, bc_h_bot, bc_h_left, bc_h_right]
 
