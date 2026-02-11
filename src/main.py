@@ -1,12 +1,12 @@
+import argparse
 import os
-import time
-
-import numpy as np
-import dolfin as df
 
 # for directory handling
 import sys
-import argparse
+import time
+
+import dolfin as df
+import numpy as np
 
 # ------------------------------------------------------------------------------
 # GLOBAL PARAMETERS
@@ -22,7 +22,7 @@ rho = 1270.0  # Density [kg/m³]
 nu = 1.49  # Kinematic viscosity [m²/s]
 g = 9.81  # Gravity [m/s²]
 f = 1.0  # Forcing frequency [Hz]
-u_max = 0.01 # Maximal wall velocity [m/s]
+u_max = 0.05  # Maximal wall displacement [m]
 
 # Time-stepping
 dt_value = 1.0e-2  # Time step size
@@ -30,9 +30,9 @@ theta_value = 0.5  # Crank-Nicolson theta scheme
 Tmax = 6.0  # Max simulation time
 
 # Domain and mesh
-x_min, x_max = 0.0, 1.0
-z_min, z_max = 0.0, 0.3
-x_div, z_div = 50, 25
+x_min, x_max = 0.0, 0.5
+z_min, z_max = 0.0, 1.0
+x_div, z_div = 50, 100
 
 
 # ------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ def build_forms(M, V, dt, ds, norm, theta):
         return df.inner(df.div(v_), q) * df.dx
 
     def c(v_):
-        return - rho * g * v_[1] * df.dx
+        return -rho * g * v_[1] * df.dx
 
     # Navier–Stokes residuals
     F0 = a(v_k, v_) - b(p, v_) - c(v_) + b(p_, v)
@@ -148,14 +148,24 @@ def build_forms(M, V, dt, ds, norm, theta):
 
     # Free-surface form
     # for clarity the form is split into three terms
-    term_laplace = df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx # mesh smoothing
-    term_symmetry = - df.inner(df.nabla_grad(h[1]), norm) * h_[1] * ds(2) # consistency term
+    term_laplace = (
+        df.inner(df.nabla_grad(h), df.nabla_grad(h_)) * df.dx
+    )  # mesh smoothing
+    term_symmetry = (
+        -df.inner(df.nabla_grad(h[1]), norm) * h_[1] * ds(2)
+    )  # consistency term
 
-    kinematic_residual = h[1] - h_k[1] + dt * (v[0] * (norm[1] * h[1].dx(0) - norm[0] * h[1].dx(1)) / norm[1] - v[1])
-    gamma_h = df.Constant(0.005 / x_div) # penalty parameter
-    nitsche_weight = df.inner(df.nabla_grad(h_[1]), norm) - h_[1] / gamma_h # nitsche penalty weight
-    term_nitsche = - kinematic_residual * nitsche_weight * ds(2) # the full term
-    
+    kinematic_residual = (
+        h[1]
+        - h_k[1]
+        + dt * (v[0] * (norm[1] * h[1].dx(0) - norm[0] * h[1].dx(1)) / norm[1] - v[1])
+    )
+    gamma_h = df.Constant(0.005 / x_div)  # penalty parameter
+    nitsche_weight = (
+        df.inner(df.nabla_grad(h_[1]), norm) - h_[1] / gamma_h
+    )  # nitsche penalty weight
+    term_nitsche = -kinematic_residual * nitsche_weight * ds(2)  # the full term
+
     # the full free-surface form
     F_h = term_laplace + term_symmetry + term_nitsche
 
@@ -170,21 +180,32 @@ def build_forms(M, V, dt, ds, norm, theta):
 # ------------------------------------------------------------------------------
 
 # Displacement of the walls
-disp_left_expr = df.Expression(("u_max*sin(2*pi*f*t)", "0"),u_max = u_max,f = f, t = 0.0, degree = 2)
-disp_right_expr = df.Expression(("-u_max*sin(2*pi*f*t)", "0"), u_max = u_max, f = f, t = 0.0, degree = 2)
+disp_left_expr = df.Expression(
+    ("u_max*sin(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+)
+disp_right_expr = df.Expression(
+    ("-u_max*sin(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+)
 
 # Velocity of the walls
-vel_left_expr = df.Expression(("2*pi*f*u_max*cos(2*pi*f*t)", "0"), u_max = u_max, f = f, t = 0.0, degree = 2)
-vel_right_expr = df.Expression(("-2*pi*f*u_max*cos(2*pi*f*t)", "0"), u_max = u_max, f = f, t = 0.0, degree = 2)
+vel_left_expr = df.Expression(
+    ("2*pi*f*u_max*cos(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+)
+vel_right_expr = df.Expression(
+    ("-2*pi*f*u_max*cos(2*pi*f*t)", "0"), u_max=u_max, f=f, t=0.0, degree=2
+)
 
-def build_bcs(M, boundaries, disp_left_expr, disp_right_expr, vel_left_expr, vel_right_expr):
+
+def build_bcs(
+    M, boundaries, disp_left_expr, disp_right_expr, vel_left_expr, vel_right_expr
+):
     """Free-slip velocity + fixed free-surface BCs."""
     # Velocity BCs
     bc_v_bot = df.DirichletBC(M.sub(0).sub(1), df.Constant(0.0), boundaries, 1)
     bc_v_left = df.DirichletBC(M.sub(0), vel_left_expr, boundaries, 3)
     bc_v_right = df.DirichletBC(M.sub(0), vel_right_expr, boundaries, 4)
 
-    # Free-surface BCs 
+    # Free-surface BCs
     bc_h_bot = df.DirichletBC(M.sub(2).sub(1), df.Constant(0.0), boundaries, 1)
     bc_h_left = df.DirichletBC(M.sub(2), disp_left_expr, boundaries, 3)
     bc_h_right = df.DirichletBC(M.sub(2), disp_right_expr, boundaries, 4)
@@ -220,12 +241,12 @@ def make_xdmf_writers(comm, outdir):
     # make sure the directory exists
     if comm.Get_rank() == 0:
         os.makedirs(outdir, exist_ok=True)
-    comm.Barrier() # Wait for rank 0 to create dir
+    comm.Barrier()  # Wait for rank 0 to create dir
 
     file_v = df.XDMFFile(comm, os.path.join(outdir, "v.xdmf"))
     file_p = df.XDMFFile(comm, os.path.join(outdir, "p.xdmf"))
     file_h = df.XDMFFile(comm, os.path.join(outdir, "h.xdmf"))
-    
+
     for f in [file_v, file_p, file_h]:
         f.parameters["flush_output"] = True
         f.parameters["rewrite_function_mesh"] = True
@@ -246,6 +267,7 @@ def write_outputs(file_v, file_p, file_h, w, t):
 # HACK: when using MPI, only one processor has the vertex
 # if the processor does not have the vertex, it supposes it has it and assigns its y coord to be very small
 # the true y coord is the maximum of all y coords across the processors
+
 
 def append_probe(mesh, tr_index, t, outdir):
     """Log displacement of top-right vertex."""
@@ -277,7 +299,9 @@ def main(outdir):
 
     # Force and variational setup
     F, J, w, w_k, h, h_k, dh = build_forms(M, V, dt, ds, norm, theta)
-    bcs = build_bcs(M, boundaries, disp_left_expr, disp_right_expr, vel_left_expr, vel_right_expr)
+    bcs = build_bcs(
+        M, boundaries, disp_left_expr, disp_right_expr, vel_left_expr, vel_right_expr
+    )
     solver = make_solver(F, w, bcs, J)
 
     # Initial conditions
@@ -341,7 +365,9 @@ def main(outdir):
 if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--outdir", type=str, required=True, help="Directory for output")
+    parser.add_argument(
+        "--outdir", type=str, required=True, help="Directory for output"
+    )
     args = parser.parse_args()
-    
+
     main(args.outdir)
