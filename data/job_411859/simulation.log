@@ -1,0 +1,663 @@
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Step 0001 | t = 0.0100
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 0: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 6: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 8: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 11: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 12: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 13: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 2: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+dt = 0.01, theta = 0.5, Tmax = 6.0
+Process 9: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.530e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.838e+00 (tol = 1.000e-08) r (rel) = 4.058e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.402e-02 (tol = 1.000e-08) r (rel) = 5.302e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 2.457e-05 (tol = 1.000e-08) r (rel) = 5.425e-07 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 6.410e-11 (tol = 1.000e-08) r (rel) = 1.415e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 4 iterations and 4 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+time spent in one time step =  2.453590154647827
+Step 0002 | t = 0.0200
+Process 0: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.660e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.481e+00 (tol = 1.000e-08) r (rel) = 1.308e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.052e-02 (tol = 1.000e-08) r (rel) = 7.715e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 2.427e-05 (tol = 1.000e-08) r (rel) = 9.124e-08 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 9.343e-11 (tol = 1.000e-08) r (rel) = 3.512e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 4 iterations and 4 linear solver iterations.
+Process 3: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+Process 2: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+time spent in one time step =  1.6799731254577637
+Step 0003 | t = 0.0300
+Process 0: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.682e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.233e+00 (tol = 1.000e-08) r (rel) = 8.324e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.179e-03 (tol = 1.000e-08) r (rel) = 2.304e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 2.126e-07 (tol = 1.000e-08) r (rel) = 7.927e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 3 iterations and 3 linear solver iterations.
+Process 3: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+Process 2: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+time spent in one time step =  1.3771271705627441
+Step 0004 | t = 0.0400
+Process 0: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.570e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.158e+00 (tol = 1.000e-08) r (rel) = 4.506e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.976e-03 (tol = 1.000e-08) r (rel) = 3.104e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 2.665e-06 (tol = 1.000e-08) r (rel) = 1.037e-07 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 2.547e-12 (tol = 1.000e-08) r (rel) = 9.911e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 4 iterations and 4 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+time spent in one time step =  1.682417392730713
+Step 0005 | t = 0.0500
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.315e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.538e+00 (tol = 1.000e-08) r (rel) = 6.643e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.741e-03 (tol = 1.000e-08) r (rel) = 2.912e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 8.410e-07 (tol = 1.000e-08) r (rel) = 3.633e-08 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 2.480e-12 (tol = 1.000e-08) r (rel) = 1.071e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 4 iterations and 4 linear solver iterations.
+Process 5: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+Process 2: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+time spent in one time step =  1.651944637298584
+Step 0006 | t = 0.0600
+Process 0: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.592e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.211e+00 (tol = 1.000e-08) r (rel) = 4.670e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.509e-02 (tol = 1.000e-08) r (rel) = 1.354e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 2.092e-05 (tol = 1.000e-08) r (rel) = 8.068e-07 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 5.858e-12 (tol = 1.000e-08) r (rel) = 2.260e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 4 iterations and 4 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+time spent in one time step =  1.6933009624481201
+Step 0007 | t = 0.0700
+Process 7: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.752e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 6.848e+00 (tol = 1.000e-08) r (rel) = 2.488e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.934e+01 (tol = 1.000e-08) r (rel) = 7.027e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 3.129e+00 (tol = 1.000e-08) r (rel) = 1.137e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 4.083e+00 (tol = 1.000e-08) r (rel) = 1.484e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 5: r (abs) = 7.392e-01 (tol = 1.000e-08) r (rel) = 2.686e-02 (tol = 1.000e-08)
+  Process 0: Newton iteration 6: r (abs) = 3.903e-03 (tol = 1.000e-08) r (rel) = 1.418e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 7: r (abs) = 4.317e-06 (tol = 1.000e-08) r (rel) = 1.569e-07 (tol = 1.000e-08)
+  Process 0: Newton iteration 8: r (abs) = 2.308e-12 (tol = 1.000e-08) r (rel) = 8.388e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 8 iterations and 8 linear solver iterations.
+Process 3: Solving nonlinear variational problem.
+Process 6: Solving nonlinear variational problem.
+Process 9: Solving nonlinear variational problem.
+Process 10: Solving nonlinear variational problem.
+Process 12: Solving nonlinear variational problem.
+Process 13: Solving nonlinear variational problem.
+Process 14: Solving nonlinear variational problem.
+Process 15: Solving nonlinear variational problem.
+Process 2: Solving nonlinear variational problem.
+Process 4: Solving nonlinear variational problem.
+Process 5: Solving nonlinear variational problem.
+Process 8: Solving nonlinear variational problem.
+Process 11: Solving nonlinear variational problem.
+time spent in one time step =  2.689713478088379
+Step 0008 | t = 0.0800
+Process 1: Solving nonlinear variational problem.
+Process 7: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.982e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 8.257e+02 (tol = 1.000e-08) r (rel) = 4.165e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.068e+02 (tol = 1.000e-08) r (rel) = 1.043e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 4.187e+01 (tol = 1.000e-08) r (rel) = 2.112e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 4: r (abs) = 4.498e+02 (tol = 1.000e-08) r (rel) = 2.269e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 5: r (abs) = 2.685e+02 (tol = 1.000e-08) r (rel) = 1.355e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 6: r (abs) = 1.178e+02 (tol = 1.000e-08) r (rel) = 5.940e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 7: r (abs) = 1.028e+02 (tol = 1.000e-08) r (rel) = 5.186e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 8: r (abs) = 1.384e+02 (tol = 1.000e-08) r (rel) = 6.982e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 9: r (abs) = 3.187e+02 (tol = 1.000e-08) r (rel) = 1.607e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 10: r (abs) = 9.705e+01 (tol = 1.000e-08) r (rel) = 4.896e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 11: r (abs) = 1.201e+02 (tol = 1.000e-08) r (rel) = 6.059e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 12: r (abs) = 1.939e+02 (tol = 1.000e-08) r (rel) = 9.779e-01 (tol = 1.000e-08)
+  Process 0: Newton iteration 13: r (abs) = 6.270e+02 (tol = 1.000e-08) r (rel) = 3.163e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 14: r (abs) = 6.495e+02 (tol = 1.000e-08) r (rel) = 3.276e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 15: r (abs) = 1.003e+03 (tol = 1.000e-08) r (rel) = 5.059e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 16: r (abs) = 3.751e+03 (tol = 1.000e-08) r (rel) = 1.892e+01 (tol = 1.000e-08)
+  Process 0: Newton iteration 17: r (abs) = 1.329e+04 (tol = 1.000e-08) r (rel) = 6.703e+01 (tol = 1.000e-08)
+  Process 0: Newton iteration 18: r (abs) = 1.710e+04 (tol = 1.000e-08) r (rel) = 8.628e+01 (tol = 1.000e-08)
+  Process 0: Newton iteration 19: r (abs) = 1.620e+04 (tol = 1.000e-08) r (rel) = 8.172e+01 (tol = 1.000e-08)
+  Process 0: Newton iteration 20: r (abs) = 5.551e+06 (tol = 1.000e-08) r (rel) = 2.800e+04 (tol = 1.000e-08)
+  Process 0: Newton iteration 21: r (abs) = 3.518e+06 (tol = 1.000e-08) r (rel) = 1.775e+04 (tol = 1.000e-08)
+  Process 0: Newton iteration 22: r (abs) = 2.627e+07 (tol = 1.000e-08) r (rel) = 1.325e+05 (tol = 1.000e-08)
+  Process 0: Newton iteration 23: r (abs) = 6.330e+07 (tol = 1.000e-08) r (rel) = 3.193e+05 (tol = 1.000e-08)
+  Process 0: Newton iteration 24: r (abs) = 2.156e+08 (tol = 1.000e-08) r (rel) = 1.088e+06 (tol = 1.000e-08)
+  Process 0: Newton iteration 25: r (abs) = 2.951e+08 (tol = 1.000e-08) r (rel) = 1.488e+06 (tol = 1.000e-08)
+  Process 0: Newton iteration 26: r (abs) = 1.152e+08 (tol = 1.000e-08) r (rel) = 5.812e+05 (tol = 1.000e-08)
+  Process 0: Newton iteration 27: r (abs) = 5.397e+08 (tol = 1.000e-08) r (rel) = 2.722e+06 (tol = 1.000e-08)
+  Process 0: Newton iteration 28: r (abs) = 2.820e+10 (tol = 1.000e-08) r (rel) = 1.423e+08 (tol = 1.000e-08)
+  Process 0: Newton iteration 29: r (abs) = 2.419e+11 (tol = 1.000e-08) r (rel) = 1.220e+09 (tol = 1.000e-08)
+  Process 0: Newton iteration 30: r (abs) = 6.049e+10 (tol = 1.000e-08) r (rel) = 3.051e+08 (tol = 1.000e-08)
+  Process 0: Newton iteration 31: r (abs) = 1.543e+10 (tol = 1.000e-08) r (rel) = 7.785e+07 (tol = 1.000e-08)
+  Process 0: Newton iteration 32: r (abs) = 6.002e+09 (tol = 1.000e-08) r (rel) = 3.028e+07 (tol = 1.000e-08)
+  Process 0: Newton iteration 33: r (abs) = 1.292e+10 (tol = 1.000e-08) r (rel) = 6.518e+07 (tol = 1.000e-08)
+  Process 0: Newton iteration 34: r (abs) = 7.975e+12 (tol = 1.000e-08) r (rel) = 4.023e+10 (tol = 1.000e-08)
+  Process 0: Newton iteration 35: r (abs) = 1.994e+12 (tol = 1.000e-08) r (rel) = 1.006e+10 (tol = 1.000e-08)
+  Process 0: Newton iteration 36: r (abs) = 3.768e+16 (tol = 1.000e-08) r (rel) = 1.901e+14 (tol = 1.000e-08)
+  Process 0: Newton iteration 37: r (abs) = 9.420e+15 (tol = 1.000e-08) r (rel) = 4.752e+13 (tol = 1.000e-08)
+  Process 0: Newton iteration 38: r (abs) = 2.355e+15 (tol = 1.000e-08) r (rel) = 1.188e+13 (tol = 1.000e-08)
+  Process 0: Newton iteration 39: r (abs) = 5.887e+14 (tol = 1.000e-08) r (rel) = 2.970e+12 (tol = 1.000e-08)
+  Process 0: Newton iteration 40: r (abs) = 1.472e+14 (tol = 1.000e-08) r (rel) = 7.425e+11 (tol = 1.000e-08)
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 373, in <module>
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 10
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 8
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 14
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 341, in main
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 3
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 1
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 4
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 11
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 6
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 9
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 12
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 13
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 15
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 0
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 2
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 7
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to solve nonlinear system with NewtonSolver.
+*** Reason:  Newton solver did not converge because maximum number of iterations reached.
+*** Where:   This error was encountered inside NewtonSolver.cpp.
+*** Process: 5
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+srun: error: r41: tasks 0-15: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=411859.0

@@ -1,0 +1,482 @@
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 374, in <module>
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+    main(args.outdir)
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 303, in main
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bcs = build_bcs(
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 211, in build_bcs
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    bc_h_left = df.DirichletBC(M.sub(2).sub(0), disp_left_expr(0), boundaries, 3)
+  File "/usr/local/pkg/Installs/linux-ubuntu20.04-skylake_avx512/gcc9.4.0/fenics/master/gnzt2f6rdmtpmc3o/lib/python3.9/site-packages/dolfin/fem/dirichletbc.py", line 131, in __init__
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 1
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 3
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 4
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 5
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 6
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 7
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 8
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 10
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 11
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 12
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 13
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 14
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 15
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 0
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 2
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+    super().__init__(*args)
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to create Dirichlet boundary condition.
+*** Reason:  Expecting a scalar boundary value but given function is vector-valued.
+*** Where:   This error was encountered inside DirichletBC.cpp.
+*** Process: 9
+*** 
+*** DOLFIN version: 2019.2.0.dev0
+*** Git changeset:  fd662efc1c0ddefa341c1dac753f717f6b6292a8
+*** -------------------------------------------------------------------------
+
+srun: error: r41: tasks 0-15: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=411869.0

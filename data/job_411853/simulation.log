@@ -1,0 +1,126 @@
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+Traceback (most recent call last):
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 343, in <module>
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    main(args.outdir)
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 268, in main
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+    raise RuntimeError("Top-right vertex not found.")
+    mesh, boundaries, omega, tr_index, ds, norm = build_mesh()
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 91, in build_mesh
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+    raise RuntimeError("Top-right vertex not found.")
+RuntimeError: Top-right vertex not found.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+srun: forcing job termination
+slurmstepd: error: *** STEP 411853.0 ON r41 CANCELLED AT 2026-02-10T23:06:30 ***
+srun: error: r41: tasks 0-15: Terminated
+srun: launch/slurm: _step_signal: Terminating StepId=411853.0
