@@ -1,0 +1,4 @@
+Using system: gcc/9.4.0 
+Loaded: openmpi/4.1.6-gcc9.4.0 
+Loaded: fenics/master 
+slurmstepd: error: *** JOB 411881 ON r31 CANCELLED AT 2026-02-11T19:47:31 ***
