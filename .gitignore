@@ -19,6 +19,10 @@
 #*.out
 #*.err
 
+# frames
+*.png
+*.jpg
+
 # tex
 *.aux
 *.bbl
