@@ -19,7 +19,7 @@ size = df.MPI.size(comm)
 
 # Physical and numerical constants
 rho = 1000.0  # Density [kg/m³]
-nu = 1.49e-3  # Kinematic viscosity [m²/s]
+nu = 1.49  # Kinematic viscosity [m²/s]
 mu = nu * rho  # Dynamic viscosity [Pa/s]
 g = 0.113  # Gravity [m/s²]
 f = 0.05  # Forcing frequency [Hz]
@@ -33,7 +33,7 @@ Tmax = 40.0  # Max simulation time: 2 full periods
 # Domain and mesh
 x_min, x_max = 0.0, 1.0
 z_min, z_max = 0.0, 10.0
-x_div, z_div = 50, 500
+x_div, z_div = 15, 1500
 
 
 # ------------------------------------------------------------------------------

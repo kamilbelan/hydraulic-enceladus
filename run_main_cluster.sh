@@ -2,9 +2,9 @@
 #SBATCH --job-name=enceladus_ale
 #SBATCH --output=logs/run.%j.out
 #SBATCH --error=logs/run.%j.err
-#SBATCH --ntasks=16
+#SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
-#SBATCH --time=04:00:00
+#SBATCH --time=06:00:00
 #SBATCH --partition=express3
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=cluster@kamilbelan.anonaddy.com
