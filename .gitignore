@@ -28,7 +28,7 @@
 *.ilg
 *.ind
 *.lof
-*.log
+#*.log
 *.lot
 *.nav
 *.out
