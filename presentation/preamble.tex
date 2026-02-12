@@ -1,0 +1,119 @@
+% ---------------------------------------------------------------------
+% 1. PACKAGES
+% ---------------------------------------------------------------------
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{animate} % Essential for scientific animations
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{microtype}
+\usepackage{physics}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[bbgreekl]{mathbbol}
+\usepackage{siunitx}
+\usepackage{eqnlines}
+
+
+\pgfplotsset{compat=1.18}
+\tcbuselibrary{skins, breakable}
+
+\definecolor{PaperBg}{HTML}{F9F9F9} 
+\definecolor{SumiInk}{HTML}{181616} 
+\definecolor{DragonRed}{HTML}{C34043}   
+\definecolor{DragonGold}{HTML}{C0A36E}  % Secondary (Highlights)
+\definecolor{DragonTeal}{HTML}{6A9589}  % Tertiary (Code/Figures)
+\definecolor{DragonGray}{HTML}{727169}  % Metadata/Comments
+\definecolor{DragonIndigo}{HTML}{7E78A0} % New: For Math/Theorems
+\definecolor{DragonRed}{HTML}{C34043}    % Existing: For Frame Headings
+
+% ---------------------------------------------------------------------
+% 3. TYPOGRAPHY
+% ---------------------------------------------------------------------
+\setmainfont{Fira Sans}
+\setsansfont{Fira Sans}
+\setmathfont{Garamond-Math} 
+\setmathfont{STIX Two Math}[range={bb,bbit}, Scale=MatchUppercase] % Fix for \mathbb
+\setmonofont{JetBrains Mono}[Scale=0.85, Color=SumiInk]
+
+% ---------------------------------------------------------------------
+% 4. MINIMALIST THEME SETUP
+% ---------------------------------------------------------------------
+\setbeamercolor{background canvas}{bg=PaperBg}
+\setbeamercolor{normal text}{fg=SumiInk}
+\setbeamercolor{frametitle}{fg=DragonRed}
+\setbeamercolor{structure}{fg=DragonRed}
+
+\setbeamertemplate{navigation symbols}{}
+
+% Elegant Frametitle (Text only, no bar)
+\setbeamertemplate{frametitle}{
+    \vspace*{0.6cm}
+    \bfseries\Large\insertframetitle
+    \par
+    % Optional: Subtle underline
+    % \vspace*{0.1cm}\hrule\color{DragonGray!20}
+}
+
+% Minimal Footer (Just page number, bottom right)
+\setbeamertemplate{footline}{
+    \hfill \color{DragonGray}\scriptsize\insertframenumber \hspace{0.5cm} \vspace{0.3cm}
+}
+
+% ---------------------------------------------------------------------
+% 5. SLEEK BLOCKS (The "Left-Line" Style)
+% ---------------------------------------------------------------------
+
+\newtcolorbox{math-block}[1]{
+    enhanced,
+    frame hidden,           % No box border
+    colback=PaperBg,        % Blends with background
+    borderline west={2pt}{0pt}{DragonIndigo}, % The "Dragon" touch
+    title={\bfseries\color{DragonIndigo}#1}, % Colored Title
+    detach title,
+    before upper={\tcbtitle\par\vspace{0.2em}},
+    coltext=SumiInk,
+    left=10pt,
+    sharp corners
+}
+
+\newtcolorbox{code-block}[1]{
+    enhanced,
+    frame hidden,
+    colback=PaperBg, % Keep it clean, or use {DragonGray!5} for slight shading
+    borderline west={2pt}{0pt}{DragonTeal},
+    title={\small\ttfamily\color{DragonTeal}#1},
+    detach title,
+    before upper={\tcbtitle\par\vspace{0.1em}},
+    left=10pt,
+    sharp corners
+}
+
+% ---------------------------------------------------------------------
+% 6. CODE STYLING
+% ---------------------------------------------------------------------
+\lstset{
+    basicstyle=\ttfamily\footnotesize\color{SumiInk},
+    keywordstyle=\bfseries\color{DragonRed},
+    commentstyle=\itshape\color{DragonGray},
+    stringstyle=\color{DragonTeal},
+    numbers=none,
+    frame=none,
+    backgroundcolor=\color{PaperBg}
+}
+
+\AtBeginSection[]{
+  \begin{frame}[plain]
+    \vfill
+    \centering
+    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+      \usebeamerfont{title}\bfseries\Huge\color{DragonTeal}\insertsectionhead\par%
+    \end{beamercolorbox}
+    \vfill
+  \end{frame}
+}

@@ -1,0 +1,36 @@
+%% User macros
+\DeclareMathOperator{\sym}{sym}
+\DeclareMathOperator{\asym}{asym}
+\DeclareMathOperator{\cof}{sym}
+\DeclareMathOperator{\laplace}{\bigtriangleup}
+\newcommand{\tensorq}[1]{\symbb{#1}}      % tensorial quantity
+\newcommand{\identityM}{\ensuremath{\tensorq{I}}}
+\newcommand{\fgrad}{\tensorq{F}}
+\newcommand{\detf}{\det\, \fgrad}
+\newcommand{\vgrad}{\tensorq{L}}
+\newcommand{\symvgrad}{\tensorq{D}}
+\newcommand{\asymvgrad}{\bbomega}
+\newcommand{\cstress}{\tensorq{T}}
+\newcommand{\pkstress}{\tensorq{T}_{\mathrm{R}}}
+\newcommand{\spkstress}{\tensorq{S}_{\mathrm{R}}}
+\newcommand{\rcg}{\tensorq{C}}
+\newcommand{\lcg}{\tensorq{B}}
+% \mdv[<species>]{<quantity>}:
+% - \mdv                -> \dfrac{\mathrm{D}}{\mathrm{D}t}
+% - \mdv{v}             -> \dfrac{\mathrm{D} v}{\mathrm{D}t}
+% - \mdv[a]{v}          -> \dfrac{\mathrm{D}_{a} v}{\mathrm{D}t}
+% - \mdv[a]             -> \dfrac{\mathrm{D}_{a}}{\mathrm{D}t}
+\NewDocumentCommand{\mdv}{o g}{%
+  \IfNoValueTF{#2}{% no braced arg -> operator form
+    \IfValueTF{#1}
+      {\dfrac{\mathrm{D}_{#1}}{\mathrm{D}t}}% species subscript on operator
+      {\dfrac{\mathrm{D}}{\mathrm{D}t}}% plain operator
+  }{% braced arg present -> numerator form
+    \IfValueTF{#1}
+      {\dfrac{\mathrm{D}_{#1} #2}{\mathrm{D}t}}% \mdv[a]{v}
+      {\dfrac{\mathrm{D} #2}{\mathrm{D}t}}% \mdv{v}
+  }%
+}
+
+
+
