@@ -1,0 +1,2007 @@
+dt = 0.05, theta = 0.5, Tmax = 10.0
+dt = 0.05, theta = 0.5, Tmax = 10.0
+dt = 0.05, theta = 0.5, Tmax = 10.0
+Process 1: Solving nonlinear variational problem.
+Process 2: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+dt = 0.05, theta = 0.5, Tmax = 10.0
+Step 0001 | t = 0.0500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.820e+03 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.935e-03 (tol = 1.000e-08) r (rel) = 3.753e-07 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.101e-09 (tol = 1.000e-08) r (rel) = 3.966e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  2.1321561336517334
+Step 0002 | t = 0.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.226e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.164e-01 (tol = 1.000e-08) r (rel) = 2.346e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.907e-06 (tol = 1.000e-08) r (rel) = 2.067e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.514535903930664
+Step 0003 | t = 0.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.935e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.464e-01 (tol = 1.000e-08) r (rel) = 4.986e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.146e-07 (tol = 1.000e-08) r (rel) = 2.434e-08 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 1.971e-10 (tol = 1.000e-08) r (rel) = 6.716e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 3 iterations and 3 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.9375088214874268
+Step 0004 | t = 0.2000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.944e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.179e-01 (tol = 1.000e-08) r (rel) = 4.005e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.549e-07 (tol = 1.000e-08) r (rel) = 1.205e-08 (tol = 1.000e-08)
+  Process 0: Newton iteration 3: r (abs) = 1.954e-10 (tol = 1.000e-08) r (rel) = 6.638e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 3 iterations and 3 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.9291408061981201
+Step 0005 | t = 0.2500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.039e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 9.831e-02 (tol = 1.000e-08) r (rel) = 3.235e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.005e-07 (tol = 1.000e-08) r (rel) = 6.597e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4288504123687744
+Step 0006 | t = 0.3000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.005e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 8.559e-02 (tol = 1.000e-08) r (rel) = 2.848e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.232e-07 (tol = 1.000e-08) r (rel) = 4.099e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.453150749206543
+Step 0007 | t = 0.3500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.155e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 7.584e-02 (tol = 1.000e-08) r (rel) = 2.403e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.200e-08 (tol = 1.000e-08) r (rel) = 2.599e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4468228816986084
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0008 | t = 0.4000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.125e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 6.936e-02 (tol = 1.000e-08) r (rel) = 2.220e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.744e-08 (tol = 1.000e-08) r (rel) = 1.838e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4318127632141113
+Step 0009 | t = 0.4500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.317e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 6.390e-02 (tol = 1.000e-08) r (rel) = 1.926e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.244e-08 (tol = 1.000e-08) r (rel) = 1.280e-09 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4496002197265625
+Step 0010 | t = 0.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.283e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 6.025e-02 (tol = 1.000e-08) r (rel) = 1.835e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.241e-08 (tol = 1.000e-08) r (rel) = 9.872e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4743850231170654
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0011 | t = 0.5500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.504e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.685e-02 (tol = 1.000e-08) r (rel) = 1.622e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.561e-08 (tol = 1.000e-08) r (rel) = 7.308e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.439154863357544
+Step 0012 | t = 0.6000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.465e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.459e-02 (tol = 1.000e-08) r (rel) = 1.575e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.071e-08 (tol = 1.000e-08) r (rel) = 5.978e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4244728088378906
+Step 0013 | t = 0.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.707e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.225e-02 (tol = 1.000e-08) r (rel) = 1.410e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.710e-08 (tol = 1.000e-08) r (rel) = 4.614e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4170606136322021
+Step 0014 | t = 0.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.662e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.070e-02 (tol = 1.000e-08) r (rel) = 1.384e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.438e-08 (tol = 1.000e-08) r (rel) = 3.928e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4648826122283936
+Step 0015 | t = 0.7500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.919e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.894e-02 (tol = 1.000e-08) r (rel) = 1.249e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.224e-08 (tol = 1.000e-08) r (rel) = 3.122e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4311976432800293
+Step 0016 | t = 0.8000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.869e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.777e-02 (tol = 1.000e-08) r (rel) = 1.235e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.058e-08 (tol = 1.000e-08) r (rel) = 2.735e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4394350051879883
+Step 0017 | t = 0.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.137e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.633e-02 (tol = 1.000e-08) r (rel) = 1.120e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 9.195e-09 (tol = 1.000e-08) r (rel) = 2.223e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4568710327148438
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0018 | t = 0.9000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.082e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.536e-02 (tol = 1.000e-08) r (rel) = 1.111e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.124e-09 (tol = 1.000e-08) r (rel) = 1.990e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5511877536773682
+Step 0019 | t = 0.9500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.358e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.409e-02 (tol = 1.000e-08) r (rel) = 1.012e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.173e-09 (tol = 1.000e-08) r (rel) = 1.646e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5125226974487305
+Step 0020 | t = 1.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.299e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.321e-02 (tol = 1.000e-08) r (rel) = 1.005e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.442e-09 (tol = 1.000e-08) r (rel) = 1.498e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.3988990783691406
+Step 0021 | t = 1.0500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.580e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.203e-02 (tol = 1.000e-08) r (rel) = 9.178e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.758e-09 (tol = 1.000e-08) r (rel) = 1.257e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4144103527069092
+Step 0022 | t = 1.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.518e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.117e-02 (tol = 1.000e-08) r (rel) = 9.113e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.241e-09 (tol = 1.000e-08) r (rel) = 1.160e-10 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4787895679473877
+Step 0023 | t = 1.1500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.802e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.003e-02 (tol = 1.000e-08) r (rel) = 8.336e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.733e-09 (tol = 1.000e-08) r (rel) = 9.856e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.435270071029663
+Step 0024 | t = 1.2000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.738e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.916e-02 (tol = 1.000e-08) r (rel) = 8.266e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.353e-09 (tol = 1.000e-08) r (rel) = 9.189e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4655241966247559
+Step 0025 | t = 1.2500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.024e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.802e-02 (tol = 1.000e-08) r (rel) = 7.567e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.963e-09 (tol = 1.000e-08) r (rel) = 7.888e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4529290199279785
+Step 0026 | t = 1.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.957e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.711e-02 (tol = 1.000e-08) r (rel) = 7.487e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.680e-09 (tol = 1.000e-08) r (rel) = 7.423e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4591484069824219
+Step 0027 | t = 1.3500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.246e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.595e-02 (tol = 1.000e-08) r (rel) = 6.853e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.371e-09 (tol = 1.000e-08) r (rel) = 6.427e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4609136581420898
+Step 0028 | t = 1.4000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.176e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.499e-02 (tol = 1.000e-08) r (rel) = 6.761e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.152e-09 (tol = 1.000e-08) r (rel) = 6.089e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4315407276153564
+Step 0029 | t = 1.4500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.466e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.380e-02 (tol = 1.000e-08) r (rel) = 6.183e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.905e-09 (tol = 1.000e-08) r (rel) = 5.316e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4262008666992188
+Step 0030 | t = 1.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.394e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.279e-02 (tol = 1.000e-08) r (rel) = 6.079e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.735e-09 (tol = 1.000e-08) r (rel) = 5.070e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4698591232299805
+Step 0031 | t = 1.5500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.685e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.156e-02 (tol = 1.000e-08) r (rel) = 5.551e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.530e-09 (tol = 1.000e-08) r (rel) = 4.450e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4190855026245117
+Step 0032 | t = 1.6000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.612e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.051e-02 (tol = 1.000e-08) r (rel) = 5.436e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.395e-09 (tol = 1.000e-08) r (rel) = 4.268e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4340322017669678
+Step 0033 | t = 1.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.903e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.925e-02 (tol = 1.000e-08) r (rel) = 4.955e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.227e-09 (tol = 1.000e-08) r (rel) = 3.773e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.417630910873413
+Process 3: Solving nonlinear variational problem.
+Step 0034 | t = 1.7000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.829e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.817e-02 (tol = 1.000e-08) r (rel) = 4.833e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.115e-09 (tol = 1.000e-08) r (rel) = 3.629e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4412281513214111
+Step 0035 | t = 1.7500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.120e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.690e-02 (tol = 1.000e-08) r (rel) = 4.396e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.972e-09 (tol = 1.000e-08) r (rel) = 3.223e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4616026878356934
+Step 0036 | t = 1.8000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.046e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.583e-02 (tol = 1.000e-08) r (rel) = 4.272e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.881e-09 (tol = 1.000e-08) r (rel) = 3.112e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.43934965133667
+Step 0037 | t = 1.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.337e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.459e-02 (tol = 1.000e-08) r (rel) = 3.880e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.757e-09 (tol = 1.000e-08) r (rel) = 2.773e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4220287799835205
+Step 0038 | t = 1.9000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.262e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.356e-02 (tol = 1.000e-08) r (rel) = 3.763e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.680e-09 (tol = 1.000e-08) r (rel) = 2.684e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4663176536560059
+Step 0039 | t = 1.9500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.553e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.240e-02 (tol = 1.000e-08) r (rel) = 3.419e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.574e-09 (tol = 1.000e-08) r (rel) = 2.402e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5243244171142578
+Step 0040 | t = 2.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.479e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.151e-02 (tol = 1.000e-08) r (rel) = 3.319e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.509e-09 (tol = 1.000e-08) r (rel) = 2.329e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4302783012390137
+Step 0041 | t = 2.0500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.770e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.051e-02 (tol = 1.000e-08) r (rel) = 3.030e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.417e-09 (tol = 1.000e-08) r (rel) = 2.093e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.531156301498413
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0042 | t = 2.1000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.696e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.984e-02 (tol = 1.000e-08) r (rel) = 2.963e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.360e-09 (tol = 1.000e-08) r (rel) = 2.031e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4433667659759521
+Step 0043 | t = 2.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.987e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.912e-02 (tol = 1.000e-08) r (rel) = 2.736e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.279e-09 (tol = 1.000e-08) r (rel) = 1.831e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.483046054840088
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0044 | t = 2.2000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.913e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.878e-02 (tol = 1.000e-08) r (rel) = 2.717e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.230e-09 (tol = 1.000e-08) r (rel) = 1.779e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+time spent in one time step =  1.423215627670288
+Process 3: Solving nonlinear variational problem.
+Step 0045 | t = 2.2500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.205e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.846e-02 (tol = 1.000e-08) r (rel) = 2.562e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.157e-09 (tol = 1.000e-08) r (rel) = 1.605e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4449431896209717
+Process 3: Solving nonlinear variational problem.
+Step 0046 | t = 2.3000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.132e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.856e-02 (tol = 1.000e-08) r (rel) = 2.602e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.113e-09 (tol = 1.000e-08) r (rel) = 1.561e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4443562030792236
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0047 | t = 2.3500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.424e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.871e-02 (tol = 1.000e-08) r (rel) = 2.520e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.047e-09 (tol = 1.000e-08) r (rel) = 1.411e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4336557388305664
+Step 0048 | t = 2.4000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.351e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.929e-02 (tol = 1.000e-08) r (rel) = 2.624e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.010e-09 (tol = 1.000e-08) r (rel) = 1.373e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4274637699127197
+Step 0049 | t = 2.4500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.644e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.991e-02 (tol = 1.000e-08) r (rel) = 2.605e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 9.489e-10 (tol = 1.000e-08) r (rel) = 1.241e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4546937942504883
+Step 0050 | t = 2.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.572e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.092e-02 (tol = 1.000e-08) r (rel) = 2.763e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 9.159e-10 (tol = 1.000e-08) r (rel) = 1.210e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4597597122192383
+Step 0051 | t = 2.5500
+Process 0: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.865e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.195e-02 (tol = 1.000e-08) r (rel) = 2.791e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.628e-10 (tol = 1.000e-08) r (rel) = 1.097e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4727962017059326
+Step 0052 | t = 2.6000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.794e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.330e-02 (tol = 1.000e-08) r (rel) = 2.989e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.300e-10 (tol = 1.000e-08) r (rel) = 1.065e-11 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4384021759033203
+Step 0053 | t = 2.6500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.087e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.462e-02 (tol = 1.000e-08) r (rel) = 3.045e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.827e-10 (tol = 1.000e-08) r (rel) = 9.679e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4413721561431885
+Step 0054 | t = 2.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.017e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.620e-02 (tol = 1.000e-08) r (rel) = 3.268e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.526e-10 (tol = 1.000e-08) r (rel) = 9.388e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4399480819702148
+Step 0055 | t = 2.7500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.310e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.772e-02 (tol = 1.000e-08) r (rel) = 3.335e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.072e-10 (tol = 1.000e-08) r (rel) = 8.511e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.426863193511963
+Step 0056 | t = 2.8000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.240e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.943e-02 (tol = 1.000e-08) r (rel) = 3.571e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.813e-10 (tol = 1.000e-08) r (rel) = 8.268e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.460705280303955
+Step 0057 | t = 2.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.534e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.105e-02 (tol = 1.000e-08) r (rel) = 3.638e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.406e-10 (tol = 1.000e-08) r (rel) = 7.507e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4276578426361084
+Step 0058 | t = 2.9000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.465e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.281e-02 (tol = 1.000e-08) r (rel) = 3.876e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.157e-10 (tol = 1.000e-08) r (rel) = 7.274e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4510140419006348
+Step 0059 | t = 2.9500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.758e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.446e-02 (tol = 1.000e-08) r (rel) = 3.934e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.777e-10 (tol = 1.000e-08) r (rel) = 6.596e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4604017734527588
+Step 0060 | t = 3.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.689e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.621e-02 (tol = 1.000e-08) r (rel) = 4.167e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.556e-10 (tol = 1.000e-08) r (rel) = 6.394e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.432016134262085
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0061 | t = 3.0500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.982e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.782e-02 (tol = 1.000e-08) r (rel) = 4.211e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.196e-10 (tol = 1.000e-08) r (rel) = 5.785e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.419644832611084
+Step 0062 | t = 3.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.913e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.951e-02 (tol = 1.000e-08) r (rel) = 4.432e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.984e-10 (tol = 1.000e-08) r (rel) = 5.592e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4161221981048584
+Step 0063 | t = 3.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.206e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.103e-02 (tol = 1.000e-08) r (rel) = 4.457e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.667e-10 (tol = 1.000e-08) r (rel) = 5.070e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.421208143234253
+Step 0064 | t = 3.2000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.137e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.260e-02 (tol = 1.000e-08) r (rel) = 4.662e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.450e-10 (tol = 1.000e-08) r (rel) = 4.870e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4327871799468994
+Step 0065 | t = 3.2500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.428e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.399e-02 (tol = 1.000e-08) r (rel) = 4.666e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.155e-10 (tol = 1.000e-08) r (rel) = 4.407e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.446444034576416
+Step 0066 | t = 3.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.358e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.538e-02 (tol = 1.000e-08) r (rel) = 4.849e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.973e-10 (tol = 1.000e-08) r (rel) = 4.245e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5234065055847168
+Step 0067 | t = 3.3500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.647e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.659e-02 (tol = 1.000e-08) r (rel) = 4.829e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.697e-10 (tol = 1.000e-08) r (rel) = 3.832e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4541349411010742
+Step 0068 | t = 3.4000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.577e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.778e-02 (tol = 1.000e-08) r (rel) = 4.989e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.516e-10 (tol = 1.000e-08) r (rel) = 3.671e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.431243658065796
+Step 0069 | t = 3.4500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.864e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.877e-02 (tol = 1.000e-08) r (rel) = 4.944e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.270e-10 (tol = 1.000e-08) r (rel) = 3.315e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4175338745117188
+Step 0070 | t = 3.5000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.792e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.971e-02 (tol = 1.000e-08) r (rel) = 5.077e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.100e-10 (tol = 1.000e-08) r (rel) = 3.166e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4171147346496582
+Step 0071 | t = 3.5500
+Process 0: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.008e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.044e-02 (tol = 1.000e-08) r (rel) = 5.006e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.870e-10 (tol = 1.000e-08) r (rel) = 2.848e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4309628009796143
+Step 0072 | t = 3.6000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.000e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.111e-02 (tol = 1.000e-08) r (rel) = 5.110e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.703e-10 (tol = 1.000e-08) r (rel) = 2.702e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+time spent in one time step =  1.4988157749176025
+Process 1: Solving nonlinear variational problem.
+Step 0073 | t = 3.6500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.028e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.155e-02 (tol = 1.000e-08) r (rel) = 5.013e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.505e-10 (tol = 1.000e-08) r (rel) = 2.435e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5081801414489746
+Step 0074 | t = 3.7000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.021e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.191e-02 (tol = 1.000e-08) r (rel) = 5.085e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.363e-10 (tol = 1.000e-08) r (rel) = 2.315e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4816083908081055
+Step 0075 | t = 3.7500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.048e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.203e-02 (tol = 1.000e-08) r (rel) = 4.963e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.163e-10 (tol = 1.000e-08) r (rel) = 2.063e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4548618793487549
+Step 0076 | t = 3.8000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.040e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.206e-02 (tol = 1.000e-08) r (rel) = 5.003e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.012e-10 (tol = 1.000e-08) r (rel) = 1.934e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4452216625213623
+Step 0077 | t = 3.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.068e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.185e-02 (tol = 1.000e-08) r (rel) = 4.856e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.852e-10 (tol = 1.000e-08) r (rel) = 1.735e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4360475540161133
+Step 0078 | t = 3.9000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.059e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.152e-02 (tol = 1.000e-08) r (rel) = 4.863e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.722e-10 (tol = 1.000e-08) r (rel) = 1.625e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4250538349151611
+Step 0079 | t = 3.9500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.086e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.096e-02 (tol = 1.000e-08) r (rel) = 4.692e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.560e-10 (tol = 1.000e-08) r (rel) = 1.436e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4414219856262207
+Step 0080 | t = 4.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.077e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.027e-02 (tol = 1.000e-08) r (rel) = 4.666e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.435e-10 (tol = 1.000e-08) r (rel) = 1.332e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4468536376953125
+Step 0081 | t = 4.0500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.104e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.935e-02 (tol = 1.000e-08) r (rel) = 4.472e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.302e-10 (tol = 1.000e-08) r (rel) = 1.180e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4874162673950195
+Step 0082 | t = 4.1000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.094e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.830e-02 (tol = 1.000e-08) r (rel) = 4.414e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.192e-10 (tol = 1.000e-08) r (rel) = 1.089e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5727932453155518
+Step 0083 | t = 4.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.120e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.701e-02 (tol = 1.000e-08) r (rel) = 4.198e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.082e-10 (tol = 1.000e-08) r (rel) = 9.661e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4718716144561768
+Step 0084 | t = 4.2000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.110e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.559e-02 (tol = 1.000e-08) r (rel) = 4.108e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 9.803e-11 (tol = 1.000e-08) r (rel) = 8.833e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4683873653411865
+Step 0085 | t = 4.2500
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.135e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.395e-02 (tol = 1.000e-08) r (rel) = 3.874e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.763e-11 (tol = 1.000e-08) r (rel) = 7.723e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4811880588531494
+Step 0086 | t = 4.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.124e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.219e-02 (tol = 1.000e-08) r (rel) = 3.753e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.900e-11 (tol = 1.000e-08) r (rel) = 7.028e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.46437406539917
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0087 | t = 4.3500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.148e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.021e-02 (tol = 1.000e-08) r (rel) = 3.502e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.928e-11 (tol = 1.000e-08) r (rel) = 6.034e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.462674856185913
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0088 | t = 4.4000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.137e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.811e-02 (tol = 1.000e-08) r (rel) = 3.352e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.198e-11 (tol = 1.000e-08) r (rel) = 5.451e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4548306465148926
+Step 0089 | t = 4.4500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.160e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.581e-02 (tol = 1.000e-08) r (rel) = 3.087e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.437e-11 (tol = 1.000e-08) r (rel) = 4.687e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.462477207183838
+Step 0090 | t = 4.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.148e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.341e-02 (tol = 1.000e-08) r (rel) = 2.910e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.735e-11 (tol = 1.000e-08) r (rel) = 4.124e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.436469554901123
+Step 0091 | t = 4.5500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.170e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.083e-02 (tol = 1.000e-08) r (rel) = 2.634e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.045e-11 (tol = 1.000e-08) r (rel) = 3.456e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4383885860443115
+Step 0092 | t = 4.6000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.158e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.815e-02 (tol = 1.000e-08) r (rel) = 2.432e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.522e-11 (tol = 1.000e-08) r (rel) = 3.042e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4356374740600586
+Step 0093 | t = 4.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.179e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.533e-02 (tol = 1.000e-08) r (rel) = 2.148e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.990e-11 (tol = 1.000e-08) r (rel) = 2.536e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5088725090026855
+Step 0094 | t = 4.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.165e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.242e-02 (tol = 1.000e-08) r (rel) = 1.924e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.522e-11 (tol = 1.000e-08) r (rel) = 2.164e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.462585687637329
+Step 0095 | t = 4.7500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.186e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.939e-02 (tol = 1.000e-08) r (rel) = 1.635e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.060e-11 (tol = 1.000e-08) r (rel) = 1.737e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4441678524017334
+Step 0096 | t = 4.8000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.171e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.630e-02 (tol = 1.000e-08) r (rel) = 1.391e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.668e-11 (tol = 1.000e-08) r (rel) = 1.424e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.442739486694336
+Step 0097 | t = 4.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.191e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.312e-02 (tol = 1.000e-08) r (rel) = 1.102e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.343e-11 (tol = 1.000e-08) r (rel) = 1.128e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4436583518981934
+Step 0098 | t = 4.9000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.175e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 9.895e-03 (tol = 1.000e-08) r (rel) = 8.420e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.036e-11 (tol = 1.000e-08) r (rel) = 8.819e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.428084135055542
+Process 1: Solving nonlinear variational problem.
+Step 0099 | t = 4.9500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.194e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 6.619e-03 (tol = 1.000e-08) r (rel) = 5.545e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.357e-12 (tol = 1.000e-08) r (rel) = 7.001e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4264380931854248
+Process 3: Solving nonlinear variational problem.
+Step 0100 | t = 5.0000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.177e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.319e-03 (tol = 1.000e-08) r (rel) = 2.819e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.545e-12 (tol = 1.000e-08) r (rel) = 6.409e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4251046180725098
+Step 0101 | t = 5.0500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.195e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.950e-05 (tol = 1.000e-08) r (rel) = 2.469e-07 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.289e-12 (tol = 1.000e-08) r (rel) = 6.939e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.435582160949707
+Step 0102 | t = 5.1000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.177e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.318e-03 (tol = 1.000e-08) r (rel) = 2.819e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.018e-11 (tol = 1.000e-08) r (rel) = 8.643e-14 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4267401695251465
+Step 0103 | t = 5.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.193e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 6.620e-03 (tol = 1.000e-08) r (rel) = 5.546e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.284e-11 (tol = 1.000e-08) r (rel) = 1.076e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4589619636535645
+Process 1: Solving nonlinear variational problem.
+Step 0104 | t = 5.2000
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.175e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 9.899e-03 (tol = 1.000e-08) r (rel) = 8.422e-05 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.564e-11 (tol = 1.000e-08) r (rel) = 1.331e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4447343349456787
+Step 0105 | t = 5.2500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.190e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.313e-02 (tol = 1.000e-08) r (rel) = 1.103e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.902e-11 (tol = 1.000e-08) r (rel) = 1.597e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.477177619934082
+Step 0106 | t = 5.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.171e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.631e-02 (tol = 1.000e-08) r (rel) = 1.392e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.256e-11 (tol = 1.000e-08) r (rel) = 1.926e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.457918405532837
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0107 | t = 5.3500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.185e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.940e-02 (tol = 1.000e-08) r (rel) = 1.637e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.622e-11 (tol = 1.000e-08) r (rel) = 2.211e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4425299167633057
+Step 0108 | t = 5.4000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.166e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.244e-02 (tol = 1.000e-08) r (rel) = 1.925e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.966e-11 (tol = 1.000e-08) r (rel) = 2.545e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4651813507080078
+Step 0109 | t = 5.4500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.179e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.535e-02 (tol = 1.000e-08) r (rel) = 2.151e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.340e-11 (tol = 1.000e-08) r (rel) = 2.834e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4395127296447754
+Step 0110 | t = 5.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.158e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.818e-02 (tol = 1.000e-08) r (rel) = 2.434e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 3.782e-11 (tol = 1.000e-08) r (rel) = 3.267e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4433929920196533
+Step 0111 | t = 5.5500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.170e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.086e-02 (tol = 1.000e-08) r (rel) = 2.638e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.308e-11 (tol = 1.000e-08) r (rel) = 3.683e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4435863494873047
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0112 | t = 5.6000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.148e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.344e-02 (tol = 1.000e-08) r (rel) = 2.912e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 4.730e-11 (tol = 1.000e-08) r (rel) = 4.120e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4540343284606934
+Step 0113 | t = 5.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.159e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.584e-02 (tol = 1.000e-08) r (rel) = 3.092e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.296e-11 (tol = 1.000e-08) r (rel) = 4.568e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4759299755096436
+Step 0114 | t = 5.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.137e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.814e-02 (tol = 1.000e-08) r (rel) = 3.355e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 5.741e-11 (tol = 1.000e-08) r (rel) = 5.050e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.463144063949585
+Step 0115 | t = 5.7500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.147e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.023e-02 (tol = 1.000e-08) r (rel) = 3.507e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.306e-11 (tol = 1.000e-08) r (rel) = 5.498e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4595623016357422
+Step 0116 | t = 5.8000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.124e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.220e-02 (tol = 1.000e-08) r (rel) = 3.755e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 6.766e-11 (tol = 1.000e-08) r (rel) = 6.020e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.452577829360962
+Step 0117 | t = 5.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.133e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.396e-02 (tol = 1.000e-08) r (rel) = 3.879e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.267e-11 (tol = 1.000e-08) r (rel) = 6.413e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.461305856704712
+Step 0118 | t = 5.9000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.109e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.559e-02 (tol = 1.000e-08) r (rel) = 4.109e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 7.742e-11 (tol = 1.000e-08) r (rel) = 6.978e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4447534084320068
+Step 0119 | t = 5.9500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.118e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.698e-02 (tol = 1.000e-08) r (rel) = 4.202e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.257e-11 (tol = 1.000e-08) r (rel) = 7.385e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.442570447921753
+Step 0120 | t = 6.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.094e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.825e-02 (tol = 1.000e-08) r (rel) = 4.412e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 8.743e-11 (tol = 1.000e-08) r (rel) = 7.996e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.463266372680664
+Process 1: Solving nonlinear variational problem.
+Step 0121 | t = 6.0500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.101e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.927e-02 (tol = 1.000e-08) r (rel) = 4.473e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 9.336e-11 (tol = 1.000e-08) r (rel) = 8.476e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.489527702331543
+Step 0122 | t = 6.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.076e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.017e-02 (tol = 1.000e-08) r (rel) = 4.661e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.005e-10 (tol = 1.000e-08) r (rel) = 9.335e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4648633003234863
+Step 0123 | t = 6.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.084e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.081e-02 (tol = 1.000e-08) r (rel) = 4.689e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.062e-10 (tol = 1.000e-08) r (rel) = 9.801e-13 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4601738452911377
+Step 0124 | t = 6.2000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.058e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.134e-02 (tol = 1.000e-08) r (rel) = 4.852e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.115e-10 (tol = 1.000e-08) r (rel) = 1.054e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4527719020843506
+Step 0125 | t = 6.2500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.065e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.161e-02 (tol = 1.000e-08) r (rel) = 4.847e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.172e-10 (tol = 1.000e-08) r (rel) = 1.100e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.443488597869873
+Step 0126 | t = 6.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.039e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.177e-02 (tol = 1.000e-08) r (rel) = 4.984e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.222e-10 (tol = 1.000e-08) r (rel) = 1.177e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4309730529785156
+Step 0127 | t = 6.3500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.045e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.168e-02 (tol = 1.000e-08) r (rel) = 4.945e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.276e-10 (tol = 1.000e-08) r (rel) = 1.221e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.482133388519287
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0128 | t = 6.4000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.019e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.149e-02 (tol = 1.000e-08) r (rel) = 5.055e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.343e-10 (tol = 1.000e-08) r (rel) = 1.318e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4532477855682373
+Step 0129 | t = 6.4500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.024e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.105e-02 (tol = 1.000e-08) r (rel) = 4.983e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.384e-10 (tol = 1.000e-08) r (rel) = 1.351e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4724669456481934
+Step 0130 | t = 6.5000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.977e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 5.053e-02 (tol = 1.000e-08) r (rel) = 5.065e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.451e-10 (tol = 1.000e-08) r (rel) = 1.454e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5062782764434814
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0131 | t = 6.5500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 1.003e+02 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.977e-02 (tol = 1.000e-08) r (rel) = 4.961e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.484e-10 (tol = 1.000e-08) r (rel) = 1.479e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4349071979522705
+Step 0132 | t = 6.6000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.762e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.895e-02 (tol = 1.000e-08) r (rel) = 5.014e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.542e-10 (tol = 1.000e-08) r (rel) = 1.579e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4360771179199219
+Step 0133 | t = 6.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.813e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.788e-02 (tol = 1.000e-08) r (rel) = 4.880e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.599e-10 (tol = 1.000e-08) r (rel) = 1.629e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4336023330688477
+Step 0134 | t = 6.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.542e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.679e-02 (tol = 1.000e-08) r (rel) = 4.903e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.640e-10 (tol = 1.000e-08) r (rel) = 1.719e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4257361888885498
+Step 0135 | t = 6.7500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.591e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.547e-02 (tol = 1.000e-08) r (rel) = 4.741e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.666e-10 (tol = 1.000e-08) r (rel) = 1.737e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.475337028503418
+Step 0136 | t = 6.8000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.319e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.414e-02 (tol = 1.000e-08) r (rel) = 4.736e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.737e-10 (tol = 1.000e-08) r (rel) = 1.864e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4636263847351074
+Step 0137 | t = 6.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.366e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.258e-02 (tol = 1.000e-08) r (rel) = 4.547e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.772e-10 (tol = 1.000e-08) r (rel) = 1.892e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.508331537246704
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0138 | t = 6.9000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.093e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 4.105e-02 (tol = 1.000e-08) r (rel) = 4.515e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.825e-10 (tol = 1.000e-08) r (rel) = 2.007e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4207420349121094
+Step 0139 | t = 6.9500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 9.138e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.931e-02 (tol = 1.000e-08) r (rel) = 4.302e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.845e-10 (tol = 1.000e-08) r (rel) = 2.019e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4370832443237305
+Step 0140 | t = 7.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.866e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.762e-02 (tol = 1.000e-08) r (rel) = 4.244e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.901e-10 (tol = 1.000e-08) r (rel) = 2.144e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4299602508544922
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0141 | t = 7.0500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.910e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.574e-02 (tol = 1.000e-08) r (rel) = 4.012e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.908e-10 (tol = 1.000e-08) r (rel) = 2.141e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4328656196594238
+Step 0142 | t = 7.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.637e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.393e-02 (tol = 1.000e-08) r (rel) = 3.929e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.962e-10 (tol = 1.000e-08) r (rel) = 2.272e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4295997619628906
+Step 0143 | t = 7.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.680e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.195e-02 (tol = 1.000e-08) r (rel) = 3.681e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 1.982e-10 (tol = 1.000e-08) r (rel) = 2.283e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4454951286315918
+Step 0144 | t = 7.2000
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.409e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.008e-02 (tol = 1.000e-08) r (rel) = 3.577e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.038e-10 (tol = 1.000e-08) r (rel) = 2.423e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.5026898384094238
+Step 0145 | t = 7.2500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.451e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.805e-02 (tol = 1.000e-08) r (rel) = 3.319e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.042e-10 (tol = 1.000e-08) r (rel) = 2.416e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4336795806884766
+Step 0146 | t = 7.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.181e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.616e-02 (tol = 1.000e-08) r (rel) = 3.198e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.092e-10 (tol = 1.000e-08) r (rel) = 2.557e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4165761470794678
+Step 0147 | t = 7.3500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 8.223e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.415e-02 (tol = 1.000e-08) r (rel) = 2.937e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.100e-10 (tol = 1.000e-08) r (rel) = 2.553e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4279189109802246
+Step 0148 | t = 7.4000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.954e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.232e-02 (tol = 1.000e-08) r (rel) = 2.806e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.158e-10 (tol = 1.000e-08) r (rel) = 2.714e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4530589580535889
+Process 1: Solving nonlinear variational problem.
+Step 0149 | t = 7.4500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.996e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.040e-02 (tol = 1.000e-08) r (rel) = 2.551e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.155e-10 (tol = 1.000e-08) r (rel) = 2.695e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4242677688598633
+Step 0150 | t = 7.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.728e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.871e-02 (tol = 1.000e-08) r (rel) = 2.421e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.181e-10 (tol = 1.000e-08) r (rel) = 2.822e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4523680210113525
+Step 0151 | t = 7.5500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.770e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.699e-02 (tol = 1.000e-08) r (rel) = 2.186e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.186e-10 (tol = 1.000e-08) r (rel) = 2.813e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.424081563949585
+Step 0152 | t = 7.6000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.504e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.558e-02 (tol = 1.000e-08) r (rel) = 2.077e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.236e-10 (tol = 1.000e-08) r (rel) = 2.980e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4568555355072021
+Step 0153 | t = 7.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.546e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.423e-02 (tol = 1.000e-08) r (rel) = 1.886e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.231e-10 (tol = 1.000e-08) r (rel) = 2.957e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.427513599395752
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0154 | t = 7.7000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.281e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.329e-02 (tol = 1.000e-08) r (rel) = 1.825e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.259e-10 (tol = 1.000e-08) r (rel) = 3.102e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4194440841674805
+Step 0155 | t = 7.7500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.323e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.252e-02 (tol = 1.000e-08) r (rel) = 1.709e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.262e-10 (tol = 1.000e-08) r (rel) = 3.089e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.437162160873413
+Step 0156 | t = 7.8000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.059e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.224e-02 (tol = 1.000e-08) r (rel) = 1.734e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.288e-10 (tol = 1.000e-08) r (rel) = 3.242e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.442868709564209
+Step 0157 | t = 7.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 7.101e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.220e-02 (tol = 1.000e-08) r (rel) = 1.719e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.317e-10 (tol = 1.000e-08) r (rel) = 3.262e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4317715167999268
+Step 0158 | t = 7.9000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.839e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.262e-02 (tol = 1.000e-08) r (rel) = 1.845e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.315e-10 (tol = 1.000e-08) r (rel) = 3.385e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4461119174957275
+Step 0159 | t = 7.9500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.881e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.325e-02 (tol = 1.000e-08) r (rel) = 1.925e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.322e-10 (tol = 1.000e-08) r (rel) = 3.374e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4507396221160889
+Process 1: Solving nonlinear variational problem.
+Step 0160 | t = 8.0000
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.620e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.417e-02 (tol = 1.000e-08) r (rel) = 2.141e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.343e-10 (tol = 1.000e-08) r (rel) = 3.539e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4299354553222656
+Process 3: Solving nonlinear variational problem.
+Step 0161 | t = 8.0500
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.661e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.522e-02 (tol = 1.000e-08) r (rel) = 2.285e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.353e-10 (tol = 1.000e-08) r (rel) = 3.533e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4238245487213135
+Step 0162 | t = 8.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.402e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.642e-02 (tol = 1.000e-08) r (rel) = 2.564e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.364e-10 (tol = 1.000e-08) r (rel) = 3.692e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4168734550476074
+Step 0163 | t = 8.1500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.443e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.767e-02 (tol = 1.000e-08) r (rel) = 2.743e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.354e-10 (tol = 1.000e-08) r (rel) = 3.654e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4468841552734375
+Step 0164 | t = 8.2000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.185e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 1.897e-02 (tol = 1.000e-08) r (rel) = 3.067e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.377e-10 (tol = 1.000e-08) r (rel) = 3.844e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4607374668121338
+Process 1: Solving nonlinear variational problem.
+Step 0165 | t = 8.2500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.224e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.029e-02 (tol = 1.000e-08) r (rel) = 3.260e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.367e-10 (tol = 1.000e-08) r (rel) = 3.803e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4413518905639648
+Step 0166 | t = 8.3000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.968e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.159e-02 (tol = 1.000e-08) r (rel) = 3.618e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.402e-10 (tol = 1.000e-08) r (rel) = 4.024e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4660975933074951
+Process 1: Solving nonlinear variational problem.
+Step 0167 | t = 8.3500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 6.006e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.290e-02 (tol = 1.000e-08) r (rel) = 3.813e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.390e-10 (tol = 1.000e-08) r (rel) = 3.980e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.475917100906372
+Step 0168 | t = 8.4000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.751e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.415e-02 (tol = 1.000e-08) r (rel) = 4.200e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.419e-10 (tol = 1.000e-08) r (rel) = 4.206e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.435699701309204
+Step 0169 | t = 8.4500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.788e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.541e-02 (tol = 1.000e-08) r (rel) = 4.390e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.400e-10 (tol = 1.000e-08) r (rel) = 4.147e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4248809814453125
+Process 1: Solving nonlinear variational problem.
+Step 0170 | t = 8.5000
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.533e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.657e-02 (tol = 1.000e-08) r (rel) = 4.802e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.399e-10 (tol = 1.000e-08) r (rel) = 4.336e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.451387882232666
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0171 | t = 8.5500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.568e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.774e-02 (tol = 1.000e-08) r (rel) = 4.981e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.386e-10 (tol = 1.000e-08) r (rel) = 4.285e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.434699296951294
+Process 3: Solving nonlinear variational problem.
+Step 0172 | t = 8.6000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.316e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.880e-02 (tol = 1.000e-08) r (rel) = 5.418e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.411e-10 (tol = 1.000e-08) r (rel) = 4.536e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4278836250305176
+Step 0173 | t = 8.6500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.349e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 2.987e-02 (tol = 1.000e-08) r (rel) = 5.585e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.389e-10 (tol = 1.000e-08) r (rel) = 4.467e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4239580631256104
+Step 0174 | t = 8.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.098e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.083e-02 (tol = 1.000e-08) r (rel) = 6.047e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.411e-10 (tol = 1.000e-08) r (rel) = 4.730e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4350554943084717
+Step 0175 | t = 8.7500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 5.128e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.178e-02 (tol = 1.000e-08) r (rel) = 6.198e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.410e-10 (tol = 1.000e-08) r (rel) = 4.700e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4360008239746094
+Process 3: Solving nonlinear variational problem.
+Step 0176 | t = 8.8000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.879e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.262e-02 (tol = 1.000e-08) r (rel) = 6.687e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.434e-10 (tol = 1.000e-08) r (rel) = 4.989e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4314303398132324
+Step 0177 | t = 8.8500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.906e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.347e-02 (tol = 1.000e-08) r (rel) = 6.822e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.409e-10 (tol = 1.000e-08) r (rel) = 4.910e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.418067216873169
+Step 0178 | t = 8.9000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.660e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.419e-02 (tol = 1.000e-08) r (rel) = 7.338e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.427e-10 (tol = 1.000e-08) r (rel) = 5.208e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.3874239921569824
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0179 | t = 8.9500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.684e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.493e-02 (tol = 1.000e-08) r (rel) = 7.457e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.421e-10 (tol = 1.000e-08) r (rel) = 5.168e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4054219722747803
+Step 0180 | t = 9.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.441e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.554e-02 (tol = 1.000e-08) r (rel) = 8.003e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.402e-10 (tol = 1.000e-08) r (rel) = 5.408e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4262731075286865
+Step 0181 | t = 9.0500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.462e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.616e-02 (tol = 1.000e-08) r (rel) = 8.105e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.371e-10 (tol = 1.000e-08) r (rel) = 5.314e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.3923358917236328
+Step 0182 | t = 9.1000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.223e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.666e-02 (tol = 1.000e-08) r (rel) = 8.682e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.403e-10 (tol = 1.000e-08) r (rel) = 5.690e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.4410881996154785
+Step 0183 | t = 9.1500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.240e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.717e-02 (tol = 1.000e-08) r (rel) = 8.768e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.330e-10 (tol = 1.000e-08) r (rel) = 5.494e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.422118902206421
+Process 3: Solving nonlinear variational problem.
+Step 0184 | t = 9.2000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.007e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.757e-02 (tol = 1.000e-08) r (rel) = 9.376e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.365e-10 (tol = 1.000e-08) r (rel) = 5.902e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2749817371368408
+Step 0185 | t = 9.2500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 4.020e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.798e-02 (tol = 1.000e-08) r (rel) = 9.447e-04 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.347e-10 (tol = 1.000e-08) r (rel) = 5.838e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.272458791732788
+Step 0186 | t = 9.3000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.795e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.827e-02 (tol = 1.000e-08) r (rel) = 1.008e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.359e-10 (tol = 1.000e-08) r (rel) = 6.216e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2489101886749268
+Step 0187 | t = 9.3500
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.804e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.859e-02 (tol = 1.000e-08) r (rel) = 1.014e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.341e-10 (tol = 1.000e-08) r (rel) = 6.154e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2445743083953857
+Process 3: Solving nonlinear variational problem.
+Step 0188 | t = 9.4000
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.590e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.878e-02 (tol = 1.000e-08) r (rel) = 1.080e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.358e-10 (tol = 1.000e-08) r (rel) = 6.567e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+time spent in one time step =  1.2770330905914307
+Step 0189 | t = 9.4500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.595e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.901e-02 (tol = 1.000e-08) r (rel) = 1.085e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.343e-10 (tol = 1.000e-08) r (rel) = 6.517e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.214545726776123
+Step 0190 | t = 9.5000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.395e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.912e-02 (tol = 1.000e-08) r (rel) = 1.152e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.327e-10 (tol = 1.000e-08) r (rel) = 6.854e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2510888576507568
+Process 3: Solving nonlinear variational problem.
+Step 0191 | t = 9.5500
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.396e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.925e-02 (tol = 1.000e-08) r (rel) = 1.156e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.301e-10 (tol = 1.000e-08) r (rel) = 6.778e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2821342945098877
+Step 0192 | t = 9.6000
+Process 3: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.214e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.928e-02 (tol = 1.000e-08) r (rel) = 1.222e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.295e-10 (tol = 1.000e-08) r (rel) = 7.139e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2148466110229492
+Process 1: Solving nonlinear variational problem.
+Step 0193 | t = 9.6500
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.211e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.934e-02 (tol = 1.000e-08) r (rel) = 1.225e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.314e-10 (tol = 1.000e-08) r (rel) = 7.205e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2569594383239746
+Step 0194 | t = 9.7000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.055e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.929e-02 (tol = 1.000e-08) r (rel) = 1.286e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.300e-10 (tol = 1.000e-08) r (rel) = 7.530e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2596030235290527
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0195 | t = 9.7500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 3.047e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.928e-02 (tol = 1.000e-08) r (rel) = 1.289e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.299e-10 (tol = 1.000e-08) r (rel) = 7.546e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+time spent in one time step =  1.4035217761993408
+Step 0196 | t = 9.8000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.922e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.916e-02 (tol = 1.000e-08) r (rel) = 1.340e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.271e-10 (tol = 1.000e-08) r (rel) = 7.772e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.6912567615509033
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0197 | t = 9.8500
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.912e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.908e-02 (tol = 1.000e-08) r (rel) = 1.342e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.240e-10 (tol = 1.000e-08) r (rel) = 7.693e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.3476016521453857
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Step 0198 | t = 9.9000
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.826e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.890e-02 (tol = 1.000e-08) r (rel) = 1.376e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.268e-10 (tol = 1.000e-08) r (rel) = 8.027e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.297978162765503
+Step 0199 | t = 9.9500
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.813e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.876e-02 (tol = 1.000e-08) r (rel) = 1.378e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.229e-10 (tol = 1.000e-08) r (rel) = 7.923e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+Process 2: Solving nonlinear variational problem.
+time spent in one time step =  1.2782814502716064
+Step 0200 | t = 10.0000
+Process 1: Solving nonlinear variational problem.
+Process 3: Solving nonlinear variational problem.
+Process 0: Solving nonlinear variational problem.
+  Process 0: Newton iteration 0: r (abs) = 2.774e+01 (tol = 1.000e-08) r (rel) = 1.000e+00 (tol = 1.000e-08)
+  Process 0: Newton iteration 1: r (abs) = 3.853e-02 (tol = 1.000e-08) r (rel) = 1.389e-03 (tol = 1.000e-08)
+  Process 0: Newton iteration 2: r (abs) = 2.217e-10 (tol = 1.000e-08) r (rel) = 7.990e-12 (tol = 1.000e-08)
+  Process 0: Newton solver finished in 2 iterations and 2 linear solver iterations.
+time spent in one time step =  1.278463363647461
+Simulation complete.

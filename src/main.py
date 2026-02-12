@@ -26,9 +26,9 @@ f = 0.05  # Forcing frequency [Hz]
 u_max = 0.40  # Maximal wall displacement [m]
 
 # Time-stepping
-dt_value = 5.0e-2  # Time step size
+dt_value = 2.5e-2  # Time step size
 theta_value = 0.5  # Crank-Nicolson theta scheme
-Tmax = 0.5 * 1 / f  # Max simulation time: a HALF of full period
+Tmax = 1 / f  # Max simulation time: a HALF of full period
 
 # Domain and mesh
 x_min, x_max = 0.0, 1.0

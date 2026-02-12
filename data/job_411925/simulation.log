@@ -1,0 +1,18 @@
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 29
+    dt_value = 2.5.0e-2  # Time step size
+                  ^
+SyntaxError: invalid syntax
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 29
+    dt_value = 2.5.0e-2  # Time step size
+                  ^
+SyntaxError: invalid syntax
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 29
+    dt_value = 2.5.0e-2  # Time step size
+                  ^
+SyntaxError: invalid syntax
+  File "/srv/beegfs/cluster/work/belank/projects/hydraulic-enceladus/src/main.py", line 29
+    dt_value = 2.5.0e-2  # Time step size
+                  ^
+SyntaxError: invalid syntax
+srun: error: r41: tasks 0-3: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=411925.0
