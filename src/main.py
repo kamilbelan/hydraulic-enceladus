@@ -23,17 +23,17 @@ nu = 1.49  # Kinematic viscosity [m²/s]
 mu = nu * rho  # Dynamic viscosity [Pa/s]
 g = 0.113  # Gravity [m/s²]
 f = 0.05  # Forcing frequency [Hz]
-u_max = 0.45  # Maximal wall displacement [m]
+u_max = 0.40  # Maximal wall displacement [m]
 
 # Time-stepping
-dt_value = 1.0e-2  # Time step size
+dt_value = 5.0e-2  # Time step size
 theta_value = 0.5  # Crank-Nicolson theta scheme
-Tmax = 40.0  # Max simulation time: 2 full periods
+Tmax = 0.5 * 1 / f  # Max simulation time: a HALF of full period
 
 # Domain and mesh
 x_min, x_max = 0.0, 1.0
 z_min, z_max = 0.0, 10.0
-x_div, z_div = 15, 1500
+x_div, z_div = 10, 400
 
 
 # ------------------------------------------------------------------------------
