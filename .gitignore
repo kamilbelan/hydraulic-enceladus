@@ -15,9 +15,9 @@
 *.vtk
 
 # logs 
-*.log
-*.out
-*.err
+#*.log
+#*.out
+#*.err
 
 # tex
 *.aux
