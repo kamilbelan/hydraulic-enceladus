@@ -30,30 +30,68 @@
 \end{frame}
 
 \section{Problem settings}
-\begin{frame}{Problem settings}
-
+\begin{frame}{Modelling choices}
+\begin{itemize}
+	\item the crevasses are deep narrow \emph{effectively} rectangular domains,
+	\item the fluid is water, \textit{i.e.} \textbf{incompressible} Newtonian, $\rho = \SI{1000}{\kilogram /\meter^3}, \mu =\SI{150}{\milli\pascal / \second}$,
+	\item the only body force is \textbf{gravity} $\rho \vb{g}, g = \SI{0.113}{\kilogram /\meter \second^2}, $
+	\item the fluid can \emph{freely slip} along the walls,
+	\item the motion of the walls is \emph{harmonic}
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Mathematical formulation}
-	We are solving for $(\vb{v}, p)$ such that inside $\Omega = \qty(0, 1) \times (0, 10)$ it holds
+\begin{frame}{Governing equations}
+	We are solving for $\left(\vb{v}, p, \vb{u}\right)$ with $\Omega_0 = (0, 1) \times (0, 10)$ given such that $\forall t \in (0, T), T > 0$ inside the domain
 	\begin{math-block}{Governing equations}
+		\begin{equations}[single,*]
+			\Omega_t = \Big\{\vb{x} + \vb{u}(t, \vb{x}) \mid \vb{x} \in \Omega_0\Big\} \subset \mathbb{R}^2
+		\end{equations}
+		it holds $\forall t \in (0, T)$
 		\begin{equations}[columns,*]
-			\rho\qty(\partial_t \vb{v} + \vb{v} \vdot \grad \vb{v}) &= \divergence{\symbb{T}} + \rho \vb{g}, \\ 
-			\divergence{\vb{v}} &= 0,\\
-			\symbb{T} &= -p \symbb{I} + 2 \nu \symbb{D}
+			\bigtriangleup \vb{u} &= 0, \\
+			\rho\left(\partial_t \vb{v} + \left(\vb{v} - \partial_t \vb{u}\right) \vdot \grad \vb{v}\right) &= \divergence{\symbb{T}} + \rho \vb{g}, \\ 
+			\divergence{\vb{v}} &= 0, \\
+			\symbb{T} &= -p \symbb{I} + 2 \mu \symbb{D}.
 		\end{equations}
 	\end{math-block}
-	
-	and on $\partial \Omega = \qty(0,1) \times \qty{0} \cup \qty(0,1) \times \qty{1} \cup \qty{0} \times \qty(0,10) \cup \qty{1} \times \qty(0,10)$ it holds
+\end{frame}
+
+\begin{frame}{Boundary conditions}
+	Denote $\partial \Omega_t = \Gamma_{\, \text{bot} \,} \cup \Gamma_{\, \text{left} \,} \cup \Gamma_{\, \text{right} \,} \cup \Gamma_{\, \text{top} \,}.$ The trio $\left(\vb{v}, p, \vb{u} \right)$ must satisfy on $\left(0, T \right) \times \partial \Omega_t$
+
 	\begin{math-block}{Boundary conditions}
-	  content
+		\begin{equations}[columns,*]
+			u_x &= u_{0} \sin(2 \pi f t), \partial_{x} u_y = 0, \, \text{on} \, \Gamma_{\, \text{left} \,}, \\
+			u_x &= -u_{0} \sin(2 \pi f t), \partial_{x} u_y = 0\, \text{on} \, \Gamma_{\, \text{right} \,}, \\
+			u_y &= 0, \partial_{y} u_x = 0\, \text{on} \, \Gamma_{\, \text{bot} \,}, \\
+			v_x &= 2 u_0 \pi f \cos(2 \pi f t), \partial_{x} v_y = 0, \, \text{on} \, \Gamma_{\, \text{left} \,}, \\
+			v_x &= -2 u_0 \pi f \cos(2 \pi f t), \partial_{x} v_y = 0, \, \text{on} \, \Gamma_{\, \text{right} \,} ,\\
+			v_y &= 0, \partial_{y} v_x = 0 \, \text{on} \, \Gamma_{\, \text{bot} \,}, \\
+			\partial_t \vb{u} &= \vb{v}, \, \text{on} \, \Gamma_{\, \text{top} \,}, \\
+			\symbb{T} \vb{n} &= \vb{0}, \, \text{on} \, \Gamma_{\, \text{top} \,}.
+		\end{equations}
 	\end{math-block}
 \end{frame}
 
-\section{Implementation \& Numerical solution}
-
-\begin{frame}{ALE}
-
+\begin{frame}{Numerical solution \& Implementation strategy}
+To solve the problem numerically, we use the FEniCS library with the choices:
+\begin{itemize}
+	\item \textbf{Discretization:} $\left(P_2, P_1, P_2\right)$ elements for $\left(\vb{v}, p, \vb{u}\right)$ (Taylor-Hood for fluid, Quadratic for mesh).
+    \item \textbf{Coupling of the problem}: ALE method with the monolithic formulation for $(\vb{v}, p, \vb{u})$.
+    \begin{itemize}
+        \item Handles large deformations robustly without sub-iterations.
+    \end{itemize}
+    \item \textbf{Kinematic top boundary condition}: (symmetric) Nitsche Method.
+    \begin{itemize}
+        \item Weakly enforces kinematic condition $\partial_t \vb{u} = \vb{v}$.
+        \item Maintains system symmetry for efficiency.
+    \end{itemize}
+    \item \textbf{Time Integration:} Crank-Nicolson $\theta$-scheme
+    \begin{itemize}
+        \item Unconditionally stable, 2nd-order accurate.
+    \end{itemize}
+    \item \textbf{Solver:} Newton-based with MUMPS direct solver.
+\end{itemize}
 \end{frame}
 
 
@@ -67,25 +105,5 @@
 
 \end{frame}
 
-
-%=====================
-% Math Slide
-\begin{frame}{Governing Equations}
-    The "Left-Line" block style keeps the focus on the math, not the box.
-
-    \vspace{0.5cm}
-    
-    \begin{math-block}{Navier-Stokes Momentum}
-        For an incompressible fluid, the conservation of momentum is:
-        $$ \rho \left( \frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u} \right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f} $$
-    \end{math-block}
-
-    \vspace{0.5cm}
-    Using the \textit{Garamond} math font allows for elegant inline expressions like $\int_{\Omega} \nabla \cdot \mathbf{u} \, d\Omega = 0$ without disrupting the modern sans-serif text.
-\end{frame}
-
-% Scientific Computing Slide
-\begin{frame}{Simulation Results}
-\end{frame}
 
 \end{document}
