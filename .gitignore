@@ -21,7 +21,7 @@
 
 # frames
 *.png
-*.jpg
+#*.jpg
 
 # tex
 *.aux
