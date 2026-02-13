@@ -20,6 +20,10 @@ _<small>Tiger stripes. [Source: NASA/JPL](http://photojournal.jpl.nasa.gov/catal
 
 ## Results sneak peek
 
+![Water level evolution](results/zoom_in.gif)
+
+![Velocityfield](results/zoom_out.gif)
+
 
 
 # References
