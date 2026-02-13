@@ -110,13 +110,13 @@
     backgroundcolor=\color{PaperBg}
 }
 
+% Add this to preamble.tex
 \AtBeginSection[]{
   \begin{frame}[plain]
-    \vfill
     \centering
-    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
-      \usebeamerfont{title}\bfseries\Huge\color{DragonTeal}\insertsectionhead\par%
-    \end{beamercolorbox}
-    \vfill
+    \vspace*{\fill}
+    \usebeamerfont{title}
+    \color{DragonTeal}\Huge \insertsectionhead\par
+    \vspace*{\fill}
   \end{frame}
 }

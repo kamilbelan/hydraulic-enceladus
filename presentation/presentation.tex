@@ -11,21 +11,49 @@
 \addtobeamertemplate{frametitle}{}{\vspace{0.5em}}
 \begin{document}
 
-% TITLE SLIDE 
 {
-	\setbeamercolor{background canvas}{bg=PaperBg}
-	\begin{frame}[plain]
-		\vspace{2cm}
-		{\Huge \color{DragonRed} \inserttitle} \\
-		\vspace{0.3cm}
-		{\Large \color{DragonGray} \insertsubtitle} \\
-		\vspace{1.5cm}
-		{\insertauthor}
-	\end{frame}
+    \setbeamercolor{background canvas}{bg=PaperBg}
+    \begin{frame}[plain]
+        \centering
+        \vspace*{\fill} % Pushes content to vertical center
+        
+        {\Huge \textbf{\color{DragonRed} \inserttitle}} \\[0.5em]
+        \rule{0.6\textwidth}{0.5pt} \\[0.8em] % Minimalistic line
+        
+        {\Large \color{DragonGray} \insertsubtitle} \\
+        
+        \vspace{1.5cm}
+        
+        {\large \textbf{\insertauthor}} \\[0.5em]
+        {\footnotesize \insertdate}
+        
+        \vspace*{\fill}
+    \end{frame}
 }
 
 \section{Motivation}
-\begin{frame}{Motivation}
+
+\begin{frame}{Icy Enceladus}
+    \begin{columns}[c] 
+        
+        \column{0.6\textwidth}
+        \begin{itemize}
+            \setlength\itemsep{1.5em} 
+	    \item \textbf{Enceladus}, one of Saturn's moons, hides a subsurface ocean beneath an ice shell. 
+		    \vfill
+	    \item so called \emph{Tiger stripes}, \textit{i.e.} cracks in the ice shell at the south pole \emph{eject} plumes of water vapor and ice grains into space - \textbf{how?}
+		    \vfill
+	    \item Saturn exerts \textbf{tidal forces} on Enceladus $\Rightarrow$ ice shell squeezes and stretches $\Rightarrow$ the water in the cracks gets displaced
+		    \vfill
+	    \item since the orbit is periodic, the motion of the ice shell is cyclic as well
+        \end{itemize}
+
+        \column{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/stripes.jpg}
+        \vspace{0.5em}
+        \tiny{\textit{Tiger stripes. \href{http://photojournal.jpl.nasa.gov/catalog/PIA06247}{Source: NASA/JPL}}}
+    \end{columns}
 
 \end{frame}
 
@@ -34,9 +62,9 @@
 	\begin{itemize}
 		\item the crevasses are deep narrow \emph{effectively} rectangular domains,
 			\vfill
-		\item the fluid is water, \textit{i.e.} \textbf{incompressible} Newtonian\footnote{Much higher viscosity has been used in the simulation.}, $\rho = \SI{1000}{\kilogram /\meter^3}, \mu =\SI{1,5}{\milli\pascal  \second}$,
+		\item the fluid is water, \textit{i.e.} \textbf{incompressible} Newtonian\footnote{Much higher viscosity has been used in the simulation.}, $\rho = \SI{1000}{\kilogram /\meter^3}, \mu =\SI{1.5}{\milli\pascal  \second}$,
 			\vfill
-		\item the only body force is \textbf{gravity} $\rho \vb{g}, g = \SI{0.113}{\meter / \second^2}, $
+		\item the only body force is \textbf{gravity}  $g = \SI{0.113}{\meter / \second^2}, $
 			\vfill
 		\item the fluid can \emph{freely slip} along the walls,
 			\vfill
@@ -85,7 +113,7 @@
 	\vfill	
 
 	\begin{itemize}
-		\item \textbf{Discretization:} $\left(P_2, P_1, P_2\right)$ elements for $\left(\vb{v}, p, \vb{u}\right)$ \textit{i.e.} Taylor-Hood for fluid, $P_2$ for mesh,
+		\item \textbf{Discretization:} $\left(P_2, P_1, P_2\right)$ elements for $\left(\vb{v}, p, \vb{u}\right)$ \textit{i.e.} Hood - Taylor for fluid, $P_2$ for mesh,
 			\vfill
 		\item \textbf{Coupling}: full ALE method with the monolithic formulation for $(\vb{v}, p, \vb{u})$.
 			\vfill
@@ -122,20 +150,37 @@
 
 \section{Results}
 
-\begin{frame}{Close view}
-
-\end{frame}
-
 \begin{frame}{Complete view}
-    \centering
+\centering
     % Adjust 'width' to fill the frame nicely
-    \movie[height=0.9\textheight, width=0.9\textwidth, poster, showcontrols]{}{zoom_out.mp4}
-    \href{run:./videos/zoom_out.mp4?autostart&loop}{
-        \includegraphics[height=0.85\textheight, keepaspectratio]{figures/zoom_out.png}
-    }
-    \vspace{0.5em}
-    \footnotesize{\textit{Cyclic squeezing motion of the Enceladus crevasse.}}
+        \includegraphics[height=0.70\textheight, keepaspectratio]{figures/zoom_out.png}
 \end{frame}
 
+\begin{frame}{Close view}
+\centering
+    % Adjust 'width' to fill the frame nicely
+        \includegraphics[height=0.70\textheight, keepaspectratio]{figures/zoom_in.png}
+\end{frame}
 
+\begin{frame}{Summary}
+\begin{itemize}
+	\item Within our approach we were able to obtain the maximum squeeze $u_0 = 0.4$,  \textit{i.e.} narrowing the region down to $\textbf{20 \%}$ of its original width
+		\vfill
+	\item The simulation validated the hypothesis: squeezing can induce \textbf{significant vertical displacement.}
+		\vfill
+	\item To achieve that, \textbf{\emph{significant} increase} in viscosity ought to be introduced for stability: $\mu = \SI{1490}{\Pa \second}$ versus $\mu = \SI{1.49}{\milli \Pa \second}$
+		\vfill
+	\item Note that the \emph{timescales} are \textbf{not realistic}. Solution to the full problem would require \emph{much longer simulation times}; the periods of the motions are in fact in the magnitude of \textbf{hours}
+		\vfill
+\end{itemize}
+\end{frame}
+
+\begin{frame}[plain]
+    \centering
+    \vspace{1em}
+    \includegraphics[height=0.85\textheight, keepaspectratio]{figures/xkcd.png}
+    \\
+    \vspace{0.5em}
+    \tiny{Source: xkcd.com/2267}
+\end{frame}
 \end{document}
