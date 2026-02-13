@@ -24,7 +24,7 @@ _<small>Tiger stripes. [Source: NASA/JPL](http://photojournal.jpl.nasa.gov/catal
 
 | ** Global view ** | **Detailed view** |
 | :---: | :---: |
-| ![Water level evolution](results/zoom_out.gif) | ![Velocity field](results/zoom_n.gif) |
+| ![Water level evolution](results/zoom_out.gif) | ![Velocity field](results/zoom_in.gif) |
 | *Evolution of the free surface* | *Velocity field and mesh distortion* |
 
 # References
