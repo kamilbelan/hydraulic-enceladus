@@ -20,11 +20,12 @@ _<small>Tiger stripes. [Source: NASA/JPL](http://photojournal.jpl.nasa.gov/catal
 
 ## Results sneak peek
 
-![Water level evolution](results/zoom_in.gif)
+## Results Sneak Peek
 
-![Velocityfield](results/zoom_out.gif)
-
-
+| ** Global view ** | **Detailed view** |
+| :---: | :---: |
+| ![Water level evolution](results/zoom_out.gif) | ![Velocity field](results/zoom_n.gif) |
+| *Evolution of the free surface* | *Velocity field and mesh distortion* |
 
 # References
 - [Souček, O., Běhounková, M., Lanzendörfer, M. et al. Variations in plume activity reveal the dynamics of water-filled faults on Enceladus. Nat Commun 15, 7405 (2024).](https://doi.org/10.1038/s41467-024-51677-z)
