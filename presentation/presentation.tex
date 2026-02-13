@@ -8,36 +8,41 @@
 \subtitle{COSC-P project}
 \author{Kamil Belán}
 \date{\today}
-
+\addtobeamertemplate{frametitle}{}{\vspace{0.5em}}
 \begin{document}
 
 % TITLE SLIDE 
 {
-\setbeamercolor{background canvas}{bg=PaperBg}
-\begin{frame}[plain]
-    \vspace{2cm}
-    {\Huge \color{DragonRed} \inserttitle} \\
-    \vspace{0.3cm}
-    {\Large \color{DragonGray} \insertsubtitle} \\
-    \vspace{1.5cm}
-    {\insertauthor}
-\end{frame}
+	\setbeamercolor{background canvas}{bg=PaperBg}
+	\begin{frame}[plain]
+		\vspace{2cm}
+		{\Huge \color{DragonRed} \inserttitle} \\
+		\vspace{0.3cm}
+		{\Large \color{DragonGray} \insertsubtitle} \\
+		\vspace{1.5cm}
+		{\insertauthor}
+	\end{frame}
 }
 
 \section{Motivation}
 \begin{frame}{Motivation}
-  
+
 \end{frame}
 
 \section{Problem settings}
 \begin{frame}{Modelling choices}
-\begin{itemize}
-	\item the crevasses are deep narrow \emph{effectively} rectangular domains,
-	\item the fluid is water, \textit{i.e.} \textbf{incompressible} Newtonian, $\rho = \SI{1000}{\kilogram /\meter^3}, \mu =\SI{150}{\milli\pascal / \second}$,
-	\item the only body force is \textbf{gravity} $\rho \vb{g}, g = \SI{0.113}{\kilogram /\meter \second^2}, $
-	\item the fluid can \emph{freely slip} along the walls,
-	\item the motion of the walls is \emph{harmonic}
-\end{itemize}
+	\begin{itemize}
+		\item the crevasses are deep narrow \emph{effectively} rectangular domains,
+			\vfill
+		\item the fluid is water, \textit{i.e.} \textbf{incompressible} Newtonian\footnote{Much higher viscosity has been used in the simulation.}, $\rho = \SI{1000}{\kilogram /\meter^3}, \mu =\SI{1,5}{\milli\pascal  \second}$,
+			\vfill
+		\item the only body force is \textbf{gravity} $\rho \vb{g}, g = \SI{0.113}{\meter / \second^2}, $
+			\vfill
+		\item the fluid can \emph{freely slip} along the walls,
+			\vfill
+		\item the motion of the walls is \emph{harmonic}
+			\vfill
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{Governing equations}
@@ -73,27 +78,47 @@
 	\end{math-block}
 \end{frame}
 
-\begin{frame}{Numerical solution \& Implementation strategy}
-To solve the problem numerically, we use the FEniCS library with the choices:
-\begin{itemize}
-	\item \textbf{Discretization:} $\left(P_2, P_1, P_2\right)$ elements for $\left(\vb{v}, p, \vb{u}\right)$ (Taylor-Hood for fluid, Quadratic for mesh).
-    \item \textbf{Coupling of the problem}: ALE method with the monolithic formulation for $(\vb{v}, p, \vb{u})$.
-    \begin{itemize}
-        \item Handles large deformations robustly without sub-iterations.
-    \end{itemize}
-    \item \textbf{Kinematic top boundary condition}: (symmetric) Nitsche Method.
-    \begin{itemize}
-        \item Weakly enforces kinematic condition $\partial_t \vb{u} = \vb{v}$.
-        \item Maintains system symmetry for efficiency.
-    \end{itemize}
-    \item \textbf{Time Integration:} Crank-Nicolson $\theta$-scheme
-    \begin{itemize}
-        \item Unconditionally stable, 2nd-order accurate.
-    \end{itemize}
-    \item \textbf{Solver:} Newton-based with MUMPS direct solver.
-\end{itemize}
+\section{Numerical solution}
+\begin{frame}{ Implementation strategy}
+	To solve the problem numerically, we use the \emph{FEniCS} library with the choices:
+
+	\vfill	
+
+	\begin{itemize}
+		\item \textbf{Discretization:} $\left(P_2, P_1, P_2\right)$ elements for $\left(\vb{v}, p, \vb{u}\right)$ \textit{i.e.} Taylor-Hood for fluid, $P_2$ for mesh,
+			\vfill
+		\item \textbf{Coupling}: full ALE method with the monolithic formulation for $(\vb{v}, p, \vb{u})$.
+			\vfill
+		\item \textbf{Kinematic top boundary condition}: (symmetric) Nitsche Method for weak enforcement of the free surface BC
+			\vfill
+		\item \textbf{Time Integration:} implicit Crank-Nicolson $\theta$-scheme
+			\vfill
+		\item \textbf{Solver:} Newton-based with MUMPS direct solver.
+			\vfill
+	\end{itemize}
 \end{frame}
 
+\begin{frame}{Parameters}
+	The following parameters have been chosen to demonstrate the \textbf{qualitative behaviour} of the model
+
+	\vfill
+
+	\begin{itemize}
+		\item \emph{time step}: $dt = 0.05$ 
+			\vfill
+		\item \emph{mesh resolution}: 10 cells in horizontal direction and 400 cells in vertical direction
+			\vfill
+		\item \emph{frequency of wall motion}: $f =\SI{0.05}{\second^{-1}}, $
+			\vfill
+		\item \emph{amplitude of wall motion}: $u_0 = \SI{0.40}{\meter}, $
+			\vfill
+		\item \emph{gravitational acceleration}: $g = \SI{0.113}{\meter /\second^2}, $
+			\vfill
+		\item \emph{density}: $\rho = \SI{1000}{\kilogram / \meter^3}, $
+			\vfill
+		\item \emph{dynamic viscosity}: $\mu = \SI{1490}{\Pa \second}, $
+	\end{itemize}
+\end{frame}
 
 \section{Results}
 
@@ -102,7 +127,14 @@ To solve the problem numerically, we use the FEniCS library with the choices:
 \end{frame}
 
 \begin{frame}{Complete view}
-
+    \centering
+    % Adjust 'width' to fill the frame nicely
+    \movie[height=0.9\textheight, width=0.9\textwidth, poster, showcontrols]{}{zoom_out.mp4}
+    \href{run:./videos/zoom_out.mp4?autostart&loop}{
+        \includegraphics[height=0.85\textheight, keepaspectratio]{figures/zoom_out.png}
+    }
+    \vspace{0.5em}
+    \footnotesize{\textit{Cyclic squeezing motion of the Enceladus crevasse.}}
 \end{frame}
 
 
